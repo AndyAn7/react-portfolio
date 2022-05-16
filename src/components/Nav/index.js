@@ -1,0 +1,17 @@
+const Nav = () => {
+    return (   
+    <>
+        <nav>
+            <ul>
+                <li><a href="#aboutModal">About Me</a></li>
+                <li><a href="#Github">Git</a></li>
+                <li><a href="#LinkedIn">LinkedIn</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </>
+    )
+}
+
+export default Nav;
