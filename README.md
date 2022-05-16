@@ -6,7 +6,7 @@
 ## [Tech Utilized](Tech_Utilized)
 * React
 
-## [Appplication]
+## [Application]
 --
 
 [urlGitHubRepo](https://github.com/AndyAn7/react-portfolio.git)
