@@ -4,7 +4,7 @@
 --
 
 ## [Tech Utilized](Tech_Utilized)
--- React
+* React
 
 ## [Appplication]
 --
