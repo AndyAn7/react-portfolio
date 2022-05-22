@@ -1,19 +1,17 @@
 # react-portfolio
-
 ## [Description](Description)
---
-
+   Hello, and welcome to my personal portfolio page. Included are projects assigned while attending the UW Full-Stack development course; in time, this portfolio will be representative of projects completed outside of class so as to exemplify my progress within the computer science field. I hope you enjoy your peruse.
 ## [Tech Utilized](Tech_Utilized)
 * React
 
-## [Application]()
---
+## [Appplication](Application)
+[deployedApplication](https://andyan7.github.io/react-portfolio)
 
-[urlGitHubRepo](https://github.com/AndyAn7/react-portfolio.git)
+[urlGitHubRepo](https://github.com/AndyAn7/react-portfolio)
 
-<!-- ![image]()
+![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss1.png?raw=true)
 
-![image]() -->
+![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss2.png?raw=true)
 
 ## [Contact](Contact)
 andyan7@gmail.com
