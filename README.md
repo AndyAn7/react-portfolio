@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://opensource.org/licenses/MIT)
 
-## React Portfolio
+## Table of Contents
 - [Description](#description)
 - [Tech Utilized](#tech-utilized)
 - [Installation](#installation)
