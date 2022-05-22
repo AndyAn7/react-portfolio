@@ -22,9 +22,9 @@
 - Navigate to the directory where the repository was cloned.
 - Run `npm install` to install all dependencies.
 ### SSH Key
-- `git clone git@github.&#8204;com:AndyAn7/react-portfolio.git`
+- `git clone git@github.com:AndyAn7/react-portfolio.git`
 ### HTTPS
-- `https:.&#8204;//github.com/AndyAn7/react-portfolio.git`
+- `https://github.com/AndyAn7/react-portfolio.git`
 ### GitHubCLI
 - `gh repo clone AndyAn7/react-portfolio`
 ## How To
