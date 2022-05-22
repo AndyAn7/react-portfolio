@@ -8,8 +8,8 @@ Welcome In!
 - [Tech Utilized](#tech-utilized)
 - [Installation](#installation)
 - [How To](#how-to)
-- [App Links](#app-links)
 - [Mockup](#mockup)
+- [App Links](#app-links)
 - [Contact](#contact)
 - [License](#license)
 
@@ -37,15 +37,15 @@ Welcome In!
 # How To
 - Run `npm start` to initialize this program and the application will then open in your default browser.
 
-# App Links
-[GitHub Repo](https://github.com/AndyAn7/react-portfolio)
-
-[GitHub Application](https://andyan7.github.io/react-portfolio/)
-
 # Mockup
 [![image](./src/assets/images/ss.1.png)](https://andyan7.github.io/react-portfolio/)
 
 <!--[![image](./src/assets/images/ss.1.png)](https://andyan7.github.io/react-portfolio/) -->
+
+# App Links
+[GitHub Repo](https://github.com/AndyAn7/react-portfolio)
+
+[GitHub Application](https://andyan7.github.io/react-portfolio/)
 
 # Contact
 * GitHub: [AndyAn7](https://github.com/AndyAn7)
