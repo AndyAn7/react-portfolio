@@ -1,7 +1,6 @@
-# react-portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://opensource.org/licenses/MIT)
 
-## Table of Contents
+## React Portfolio
 - [Description](#description)
 - [Tech Utilized](#tech-utilized)
 - [Installation](#installation)
