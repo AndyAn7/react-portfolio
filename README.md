@@ -1,4 +1,4 @@
-                                            'React Portfolio'
+                                               'React Portfolio'
 
 Welcome In!
 # Table of Contents
