@@ -17,8 +17,12 @@ Welcome In!
    Hello, and welcome to my personal portfolio page. Included are projects assigned while attending the UW Full-Stack development course; in time, this portfolio will be representative of projects completed outside of class so as to exemplify my progress within the computer science field. I hope you enjoy your peruse.
 
 # Tech Utilized
+- HTML
+- npm 
+- Sass
+- Node.js
 - React.js
-- Scss
+
 
 # Installation
 - Clone this repository using any method listed below. 
