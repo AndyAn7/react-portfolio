@@ -1,4 +1,4 @@
-                                               'React Portfolio'
+                                               [font-size: 20px]'React Portfolio'
 
 Welcome In!
 # Table of Contents
