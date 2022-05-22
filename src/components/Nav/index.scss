@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content:right;
+        
+    li {
+            display: inline-flex;
+            font-size: 20px;
+            padding: 0px 16px 0 16px;
+        }
+
+        li a:hover {
+            transform: scale(1.5);
+            transition: all ease 1.5s;  
+            background: none;
+        }
+            
+        a {
+            text-decoration: none;
+        }
+    }
