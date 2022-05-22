@@ -1,22 +1,46 @@
 # react-portfolio
-## [Description](Description)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+- [Description](#description)
+- [Tech Utilized](#tech-utilized)
+- [Installation](#installation)
+- [How To](#how-to)
+- [App Links](#app-links)
+- [Contact](#contact)
+- [License](#license)
+
+## Description
    Hello, and welcome to my personal portfolio page. Included are projects assigned while attending the UW Full-Stack development course; in time, this portfolio will be representative of projects completed outside of class so as to exemplify my progress within the computer science field. I hope you enjoy your peruse.
-## [Tech Utilized](Tech_Utilized)
-* React
 
-## [Appplication](Application)
-[deployedApplication](https://andyan7.github.io/react-portfolio)
+## Tech Utilized
+- React.js
+- Scss
 
-[urlGitHubRepo](https://github.com/AndyAn7/react-portfolio)
+## Installation
+- Clone this repository using any method listed below. 
+- Navigate to the directory where the repository was cloned.
+- Run `npm install` to install all dependencies.
+### SSH Key
+- `git clone git@github.&#8204;com:AndyAn7/react-portfolio.git`
+### HTTPS
+- `https:&#8204;//github.com/AndyAn7/react-portfolio.git`
+### GitHubCLI
+- `gh repo clone AndyAn7/react-portfolio`
+## How To
+- Run `npm start` to run program and the application will then open in your default browser. 
+## App Links
+[GitHub Repo](https://github.com/AndyAn7/react-portfolio)
 
-![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss1.png?raw=true)
+<!-- ![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss1.png?raw=true)
 
-![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss2.png?raw=true)
+![image](https://github.com/AndyAn7/Personal-Portfolio/blob/main/assets/images/ss2.png?raw=true) -->
 
-## [Contact](Contact)
-andyan7@gmail.com
+## Contact
+* GitHub: [AndyAn7](https://github.com/AndyAn7)
+* email: andyan7@gmail.com
 
-## [License](License)
+## License
 MIT License
 
 Copyright (c) [2022] Andrew An
