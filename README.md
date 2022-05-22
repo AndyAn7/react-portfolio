@@ -1,6 +1,6 @@
 # Welcome In!
 
-## `'React Portfolio'`
+`'React Portfolio'`
 # Table of Contents
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://opensource.org/licenses/MIT)
 
