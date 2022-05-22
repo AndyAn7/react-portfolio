@@ -1,6 +1,4 @@
-# Welcome In!
-
-
+Welcome In!
 
 `React Portfolio`
 # Table of Contents
