@@ -1,3 +1,4 @@
+import 'animate.css';
 import './index.scss'
 import Nav from '../Nav';
 import profilePic from '../../assets/images/profilePic.png';

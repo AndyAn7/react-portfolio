@@ -1,20 +1,30 @@
-nav {
-    display: flex;
-    justify-content:right;
-        
-    li {
-            display: inline-flex;
-            font-size: 20px;
-            padding: 0px 16px 0 16px;
-        }
+.navList {
+    // display: inherit;
+    // margin: 0 0.5rem;
 
-        li a:hover {
-            transform: scale(1.5);
-            transition: all ease 1.5s;  
-            background: none;
-        }
-            
-        a {
-            text-decoration: none;
+    // animation: forwardslide 0.5s ease-in;
+    // animation-duration: 3.5s;
+    
+    ul {
+        text-align: right;
+        padding: 0;
+        min-height: 100%;
+        min-width: 100%;
+    
+        li {
+                display: inline-flex;
+                font-size: 20px;
+                padding: 0px 16px 0 16px;
+            }
+
+            li a:hover {
+                transform: scale(1.5);
+                transition: all ease 1.5s;  
+                background: none;
+            }
+                
+            a {
+                text-decoration: none;
         }
     }
+}

@@ -1,0 +1,22 @@
+.main {
+    font-size: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin:auto;
+    text-align: center;
+
+    li:hover {
+        transform: scale(1.5);
+        transition: all ease-out 1.5s;
+        cursor: pointer;
+        background: none;
+    }
+
+    li {
+        list-style: none;
+        a {
+            text-decoration: none;
+        }
+    }
+}
