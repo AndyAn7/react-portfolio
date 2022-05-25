@@ -1,8 +1,8 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
-import InstaAndy from '../../assets/images/insta.webp';
-import AndyFace from '../../assets/images/face.webp';
-import LinkyPink from '../../assets/images/linkd.webp';
+// import InstaAndy from '../../assets/images/insta.webp';
+// import AndyFace from '../../assets/images/face.webp';
+// import LinkyPink from '../../assets/images/linkd.webp';
 import AuthIMG from '../../assets/images/profilePic.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -11,15 +11,16 @@ import {
     faUser,
     faUserAlt,
 } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faInstagramSquare, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons';
 
 const Nav = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img className='sub-logo' src={AuthIMG} alt='author' />
             <div className='iconLinks'>
-                <img src={InstaAndy} alt='instagram' />
+                {/* <img src={InstaAndy} alt='instagram' />
                 <img src={AndyFace} alt='face' />
-                <img src={LinkyPink} alt='linkd' />
+                <img src={LinkyPink} alt='linkd' /> */}
             </div>
         </Link>
 
@@ -43,11 +44,35 @@ const Nav = () => (
         
         <ul>
             <li>
+                    <a 
+                    target='_blank'  
+                    rel='noreferrer' 
+                    href='https://www.instagram.com/ghengisan/'>
+                    <FontAwesomeIcon icon={faInstagramSquare} />
+                    </a>
+                </li>
+            <li>
                 <a 
                 target='_blank'  
                 rel='noreferrer' 
-                href='https://www.instagram.com/ghengisan/'>
-                <img src={InstaAndy} alt='instagram' />
+                href='https://www.linkedin.com/in/andyrooh/'>
+                <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+            </li>
+            <li>
+                <a 
+                target='_blank'  
+                rel='noreferrer'                 
+                href='https://github.com/AndyAn7'>
+                <FontAwesomeIcon icon={faGithub} />
+                </a>
+            </li>
+            <li>
+                <a 
+                target='_blank'  
+                rel='noreferrer' 
+                href='../Project'>
+                <FontAwesomeIcon icon={faReact} />
                 </a>
             </li>
         </ul>
