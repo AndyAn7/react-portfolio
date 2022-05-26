@@ -13,10 +13,7 @@ const Nav = () => (
         <div className='nav-bar'>
             <Link className='logo' to='/'>
 
-                <img className='sub-logo' src={AuthIMG} alt='author' style={{
-                    Width: '20px', borderRadius: '50%',
-                }} />
-
+                <img className='sub-logo' src={AuthIMG} alt='author' />
 
                 <p className="authName">
                     Andrew M. An
@@ -26,5 +23,4 @@ const Nav = () => (
         </div>   
     </div>
 );
-
 export default Nav;
