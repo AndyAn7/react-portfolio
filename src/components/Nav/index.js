@@ -4,6 +4,8 @@ import './index.scss';
 import AuthIMG from '../../assets/images/profilePic.png';
 import backgroundImage from '../../assets/images/bg.jpg';
 
+
+
 const Nav = () => (
 
     <div className='backgroundImage'
@@ -20,7 +22,8 @@ const Nav = () => (
                 </p>
 
             </Link>
-        </div>   
+        </div>
     </div>
 );
+
 export default Nav;

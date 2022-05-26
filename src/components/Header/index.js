@@ -6,10 +6,6 @@ import jhip from '../../assets/images/집.png';
 import eel from '../../assets/images/projex.png';
 import about from '../../assets/images/about.png';
 import contact from '../../assets/images/contact.png';
-import { faGithub, faLinkedin, faReact } from 
-'@fortawesome/free-brands-svg-icons';
-
-
 
 const Header = () => (
     
