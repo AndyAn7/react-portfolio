@@ -3,7 +3,13 @@ import './index.scss';
 import 'animate.css';
 
 const Home = () => {
+ return(
+     <>
 
+
+     
+     </>
+ )
     
 }
 
