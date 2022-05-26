@@ -1,12 +1,12 @@
-footer {
-    padding:20px;
-    justify-content: center;
-    display: flex;
-    flex-shrink: 0;
-    font-size: 20px;
-    margin: auto;
-
-    a {
-        text-decoration: none;
+ .iconLinks {
+    display: inline-flex;
+    flex-direction: initial;
+    
+    img {
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+        margin: auto;
+        content: icon;
+        }
     }
-}

@@ -1,144 +1,31 @@
+.backgroundImage {
+    overflow-wrap: normal;
+}
+
 .nav-bar {
-    
-    background-image: url('../../assets/images/bg.jpg');
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    display:i block;
-    justify-content: space-around;
-    min-height: 100% ;
-    min-width: 100%;
-// position: absolute;
-//     z-index: 3;
-//     background: none;
-//         color:black;
-    font-size: 9vw;
-    margin: auto;   
-    flex-wrap: wrap;
 
-    .iconLinks {
-        display: flex;  
-        flex-direction: row;
-        background: none;
-    }
     .logo {
-        display: block;
-        padding: 8px 0;
-        background: none;
-    
-        img {
-            display: block;
+        display:flex;
+        justify-content: space-between; 
+
+        .sub-logo {
+            border-radius: 50%;
+            position: left;
             margin: auto;
-            width: 24px;
-            height: auto;
-            background: white;
-
-            &.sub-logo {
-                width: 200px;
-                border-radius: 100%;
-                margin: auto;
-                max-width: 28vw;
-                max-height: 40vw;
-                border-style: solid;
-                border-width: 3px;
-                border-color: black;
-            }
+            min-width: 5%;
+            max-height: 10%;
+            border-style: solid;
+            border-width: 3px;
+            border-color: black;
         }
-        nav {
-            display:block;
-            text-align: center; 
-            position: relative;
-            height: 20px;
-            top: 50%;
-            margin-top: -120px;
-            width: 100%;
-            
-            a {
-                // font-size:22px;
-                // // color: white;
-                // display: block;
-                // line-height: 51px;
-                // position: relative;
-                // text-decoration: none;
-                
-                i {
-                    transition: all 0.3s ease-out;
-                }
-            
-                &:hover {
-                    // color:black;
 
-                    svg {
-                        opacity: 8;
-                    }
-
-                    &:after {
-                        // content: '';
-                        // font-size: 9px;
-                        // letter-spacing: 2px;
-                        // position: absolute;
-                        // bottom: 0;
-                        // display: block;
-                        // width: 100%;
-                        // text-align: center;
-                        // opacity: 0;
-                        // transition: all .3s ease-out
-                    }
-                    
-                //     &:first-child {
-                //         &::after {
-                //             content: 'HOME';
-                //         }
-                //     }
-                // }
-            
-                // a:about-link{
-                //     &::after {
-                //         content: 'ABOUT';
-                //     }
-                // }
-                
-                // a:contact-link{
-                //     &::after {
-                //         content: 'CONTACT';
-                //     }
-                // }   
-                
-                // a.active {
-                //     svg {
-                //         color: blue;
-                    }
-                }
-            }
+        .authName {
+            background: transparent;
+            color:black;
+            font-size:9vh;
+            margin: auto;
+            text-size-adjust: 50%;
+            align-self: flex-end;
         }
-    }
-// }
-
-    // display: inherit;
-    // margin: 0 0.5rem;
-    
-    // animation: forwardslide 0.5s ease-in;
-    // animation-duration: 3.5s;
-    
-    // ul {
-    //     text-align: right;
-    //     padding: 0;
-    //     min-height: 100%;
-    //     min-width: 100%;
-    
-    //     li {
-    //             display: inline-flex;
-    //             font-size: 20px;
-    //             padding: 0px 16px 0 16px;
-    //         }
-
-    //         li a:hover {
-    //             transform: scale(1.5);
-    //             transition: all ease 1.5s;  
-    //             background: none;
-    //         }
-                
-    //         a {
-    //             text-decoration: none;
-    //     }
-    // }
+    };
+}
