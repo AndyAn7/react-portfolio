@@ -15,16 +15,16 @@ const Header = () => (
             <div className='header'>
                 <nav className='navLinks'>
 
-                    <NavLink to='../Home' className='home'><a href='../../assets/images/집.png' className='homeNav'><img ClassName='jhip' src={jhip} alt=''/></a>
+                    <NavLink to='../Home' className='home'><img className='jhip' src={jhip} alt=''/>
                     </NavLink>
 
-                    <NavLink to='../Project' className='projex'><a href='../../assets/images/projex.png' className='homeNav'><img ClassName='eel' src={eel} alt=''/></a>
+                    <NavLink to='../Project' className='projex'><img className='eel' src={eel} alt=''/>
                     </NavLink>
 
-                    <NavLink to='../About' className='about'><a href='../../assets/images/about.png' className='homeNav'><img ClassName='about' src={about} alt=''/></a>
+                    <NavLink to='../About' className='about'><img className='about' src={about} alt=''/>
                     </NavLink>
 
-                    <NavLink to='../Contact' className='contact'><a href='../../assets/images/contact.png' className='homeNav'><img ClassName='contact' src={contact} alt=''/></a>
+                    <NavLink to='../Contact' className='contact'><img className='contact' src={contact} alt=''/>
                     </NavLink>
 
                 </nav>
