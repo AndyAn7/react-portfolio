@@ -36,7 +36,7 @@ Welcome In!
 - `gh repo clone AndyAn7/react-portfolio`
 
 # How To
-- Run `npm start` to initialize this program and the application will then open in your default browser.
+- Run `npm start` to initialize; application will then open in your default browser..
 
 # Mockup
 [![image](./src/assets/images/ss.1.png)](https://andyan7.github.io/react-portfolio/)
