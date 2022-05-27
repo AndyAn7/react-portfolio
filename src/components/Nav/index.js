@@ -13,15 +13,16 @@ const Nav = () => (
     backgroundSize:'100%', display: 'fixed',backgroundRepeat: 'no-repeat' }}>
 
         <div className='nav-bar'>
-            <Link className='logo' to='/'>
-
+            <section className='logo' to='/'>
+            <Link>
                 <img className='sub-logo' src={AuthIMG} alt='author' />
+             </Link>
 
                 <p className="authName">
                     Andrew M. An
                 </p>
 
-            </Link>
+            </section>
         </div>
     </div>
 );
