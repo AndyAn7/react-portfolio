@@ -1,12 +1,15 @@
  .iconLinks {
-    display: inline-flex;
-    flex-direction: initial;
-    
+    position: absolute;
+    bottom: 0;
+    right:50%;
+    width: cover;
+
     img {
-        width: 100px;
-        height: 100px;
-        padding: 20px;
-        margin: auto;
+        display: flex;
+
+        flex-direction: row;
+        width: 40px;
+        height: 40px;
         content: icon;
-        }
     }
+ }

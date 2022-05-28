@@ -11,24 +11,22 @@ const Header = () => {
     return (
         <>
             <Nav />
-            
-                <div className='header'>
-                    <nav className='navLinks'>
 
-                        <NavLink to='../Home' className='home'><img className='jhip' src={jhip} alt=''/>
-                        </NavLink>
+                <nav className='navLinks'>
 
-                        <NavLink to='../Project' className='projex'><img className='eel' src={eel} alt=''/>
-                        </NavLink>
+                    <NavLink to='../Home' className='home'><img className='jhip' src={jhip} alt=''/>
+                    </NavLink>
 
-                        <NavLink to='../About' className='about'><img className='about' src={about} alt=''/>
-                        </NavLink>
+                    <NavLink to='../Project' className='projex'><img className='eel' src={eel} alt=''/>
+                    </NavLink>
 
-                        <NavLink to='../Contact' className='contact'><img className='contact' src={contact} alt=''/>
-                        </NavLink>
+                    <NavLink to='../About' className='about'><img className='about' src={about} alt=''/>
+                    </NavLink>
 
-                    </nav>
-                </div>
+                    <NavLink to='../Contact' className='contact'><img className='contact' src={contact} alt=''/>
+                    </NavLink>
+
+                </nav>
         </>
     )
 }
