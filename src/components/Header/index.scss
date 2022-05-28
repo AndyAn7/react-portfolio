@@ -1,7 +1,7 @@
 .navLinks {
     position: absolute;
-    right: 0px;
-    top: 35%;
+    right: 0;
+    top: 30%;
     height: cover;
     width: cover;
 
@@ -11,7 +11,8 @@
         flex-wrap: wrap;
         border: 2px solid black;
         border-radius: .25rem;
-        max-width: 3vw;
+        width: 80px;
+        height: 80px;
         }
     }
  
