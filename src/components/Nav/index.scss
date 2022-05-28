@@ -1,0 +1,31 @@
+.backgroundImage {
+    overflow-wrap: normal;
+}
+
+.nav-bar {
+
+    .logo {
+        display:flex;
+        justify-content: space-between; 
+
+        .sub-logo {
+            border-radius: 50%;
+            position: left;
+            margin: auto;
+            min-width: 5%;
+            max-height: 10%;
+            border-style: solid;
+            border-width: 3px;
+            border-color: black;
+        }
+
+        .authName {
+            background: transparent;
+            color:black;
+            font-size:9vh;
+            margin: auto;
+            text-size-adjust: 50%;
+            align-self: flex-end;
+        }
+    }
+}
