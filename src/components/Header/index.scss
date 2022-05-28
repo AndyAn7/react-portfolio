@@ -1,18 +1,22 @@
-.navLinks {
-    position: absolute;
-    right: 0;
-    top: 30%;
-    height: cover;
-    width: cover;
+.header {
 
-    img {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        border: 2px solid black;
-        border-radius: .25rem;
-        width: 80px;
-        height: 80px;
+    .logo {
+        display:flex;
+
+        .sub-logo {
+            max-width: 90%;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            margin: 125px 0 0 20px;
         }
     }
- 
+}
+            .authName {
+                font-weight: lighter;
+                font-size: 220px;
+                width: 100%;
+                margin: 230px 0 200px 0; 
+            }
+      

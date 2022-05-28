@@ -1,8 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import './index.scss';
+import './App.scss';
 import Layout from './components/Layout';
 import Home from './components/Home';
+import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="header" element={<Header />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="projects" element={<Projects />} />

@@ -1,32 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import home from '../Home'
 import './index.scss';
-import { NavLink } from 'react-router-dom';
-import Nav from '../Nav';
-import jhip from '../../assets/images/집.png';
-import eel from '../../assets/images/projex.png';
-import about from '../../assets/images/about.png';
-import contact from '../../assets/images/contact.png';
+import AuthIMG from '../../assets/images/profilePic.png';
 
 const Header = () => {
     return (
         <>
-            <Nav />
+            <div className='header'>
+                <section className='logo'>
+                <Link to={home}>
+                    <img className='sub-logo' src={AuthIMG} alt='author' />
+                </Link>
 
-                <nav className='navLinks'>
+                    <p className="authName">
+                        Andrew M. An
+                    </p>
 
-                    <NavLink to='../Home' className='home'><img className='jhip' src={jhip} alt=''/>
-                    </NavLink>
-
-                    <NavLink to='../Projects' className='projex'><img className='eel' src={eel} alt=''/>
-                    </NavLink>
-
-                    <NavLink to='../About' className='about'><img className='about' src={about} alt=''/>
-                    </NavLink>
-
-                    <NavLink to='../Contact' className='contact'><img className='contact' src={contact} alt=''/>
-                    </NavLink>
-
-                </nav>
+                </section>
+            </div>
         </>
     )
 }
