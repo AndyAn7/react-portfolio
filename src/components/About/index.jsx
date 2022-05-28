@@ -2,7 +2,8 @@ import React from 'react';
 import './index.scss';
 
 const About = () => {
-  
+    return(
+        <>
             <section title="About Me">
                 <p>Welcome to my portfolio!</p>
                 
@@ -14,6 +15,8 @@ const About = () => {
                     
                 <p>Thanks!</p> 
             </section>
+        </>
+    )
 }
 
 export default About;
