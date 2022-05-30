@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.sass';
-// import Header from '../Header';
 import Auth from '../Auth';
 
 const Home = () => {
@@ -8,7 +7,7 @@ const Home = () => {
     <>
         <Auth />
     <div className='welcomePage'>
-        <h1>
+        <h1 className='Port'>
           Portfolio
         </h1>
       </div>
