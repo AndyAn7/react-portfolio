@@ -2,8 +2,16 @@ import React from 'react';
 import './index.sass';
 import Auth from '../Auth';
 
-const About = () => {
-    return(
+function About() {
+
+    const itemList = ['MongoDB', 'Express', 'React', 'Node', 'Sass'];
+
+    const renderList = itemList.map((item, index) => 
+                             <div key=
+                             {index}>{item}
+                             </div>
+                           );
+    return (
         <>
             <div className='authStyle'>
 
@@ -25,6 +33,18 @@ const About = () => {
                     
                 <p>Thanks!</p> 
             </section>
+
+            <div className='langTop'>
+                {'<>'}
+            </div>
+
+                <div className="aboutList">
+                    {renderList}
+                </div>
+
+            <div className='langBot'>
+                {'</>'}
+            </div>
         </>
     )
 }
