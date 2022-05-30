@@ -25,9 +25,14 @@
 
     .showcaseTwo
         position: absolute
-        top: 6.5%
         right: 7%
         font-size: 45px
+        position: absolute
+        top: 6.5%
+        margin: 0 0 0 0
+        opacity: 0
+        animation: fadeInLeft 1s 1s
+        animation-fill-mode: forwards
 
         h1
             margin: 0
@@ -35,12 +40,12 @@
 .aboutText
     position: absolute
     width: 50vw
-    border: 10px solid black
     font-size: 1.5em
     font-weight: bolder
     margin: 20px 10px 0 10px
     padding: 10px
     right: 5%
+    box-shadow: 0px 0px 100px 10px #000000
 
 .aboutList
     position: absolute
@@ -53,6 +58,13 @@
     font-weight: lighter
     text-shadow: -2px 1px grey
     font-style: italic
+    box-shadow: 0px 0px 100px 10px #000000
+    border-radius: 50px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    transition: transform 1.25s ease-out
+    cursor: pointer
     
 .langTop
     position: absolute
