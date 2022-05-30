@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.scss';
+import './index.sass';
 import InstaAndy from '../../assets/images/insta.webp';
 import AndyFace from '../../assets/images/face.webp';
 import LinkyPink from '../../assets/images/linkd.webp';

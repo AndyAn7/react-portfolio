@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import home from '../Home'
-import './index.scss';
+import './index.sass';
 import AuthIMG from '../../assets/images/profilePic.png';
 
 const Header = () => {
@@ -9,7 +8,7 @@ const Header = () => {
         <>
             <div className='header'>
                 <section className='logo'>
-                <Link to={home}>
+                <Link to='/'>
                     <img className='sub-logo' src={AuthIMG} alt='author' />
                 </Link>
 

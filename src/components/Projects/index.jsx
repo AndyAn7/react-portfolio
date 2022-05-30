@@ -1,9 +1,12 @@
 import React from 'react';
-import './index.scss';
+import './index.sass';
 
 const Projects = () => {
   return (
     <>
+      {/* <p>
+          HELLO WORLD
+      </p> */}
 
     </>
   )
