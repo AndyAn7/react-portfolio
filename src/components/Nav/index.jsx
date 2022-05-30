@@ -14,10 +14,10 @@ const Nav = () => {
                 <NavLink to='/' className='home'><img className='navg' src={jhip} alt=''/>
                 </NavLink>
 
-                <NavLink to='../Projects' className='projex'><img className='navg' src={eel} alt=''/>
+                <NavLink to='../About' className='about'><img className='navg' src={about} alt=''/>
                 </NavLink>
 
-                <NavLink to='../About' className='about'><img className='navg' src={about} alt=''/>
+                <NavLink to='../Projects' className='projex'><img className='navg' src={eel} alt=''/>
                 </NavLink>
 
                 <NavLink to='../Contact' className='contact'><img className='navg' src={contact} alt=''/>

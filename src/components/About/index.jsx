@@ -15,7 +15,8 @@ const About = () => {
                 
             </div>
 
-            {/* <section title="About Me">
+            <div class="container-fluid">
+            <section title="About Me">
                 <p>Welcome to my portfolio!</p>
                 
                 <p>I've recently begun the process of immersing myself in computer science with an aim to take part in the advance of humanity via technology and the data derived within. In time, I intend on entering into the field of technology upon the foundation of Full-Stack development; thenceforth, I plan to study and perform my way into the field of data science to take part in the apex of technology as is current, Artificial Intelligence.</p>
@@ -25,7 +26,11 @@ const About = () => {
                 <p>Though these are all works of progress towards my ultimate goal within Tech, I hope that you find yourself within good-impression as you peruse through my portfolio.</p>
                     
                 <p>Thanks!</p> 
-            </section> */}
+            </section>
+                
+            </div>
+
+     
         </>
     )
 }
