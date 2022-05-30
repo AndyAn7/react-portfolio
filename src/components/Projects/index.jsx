@@ -5,7 +5,16 @@ import Auth from '../Auth';
 const Projects = () => {
   return (
     <>
-        <Auth />
+        <div className='authStyle'>
+
+          <Auth />
+
+          <div className='showcase'>
+          <p>Projects</p>
+          </div>
+          
+        </div>
+        
     </>
   )
 }

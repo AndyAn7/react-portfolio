@@ -7,6 +7,11 @@ const Home = () => {
   return (
     <>
         <Auth />
+    <div className='welcomePage'>
+        <h1>
+          Portfolio
+        </h1>
+      </div>
     </>
   )
 }
