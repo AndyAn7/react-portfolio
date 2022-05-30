@@ -1,0 +1,57 @@
+[
+    {
+        "name": "SproutSpy",
+        "description": "Our full-stack application developed as a team while attending UW Full-Stack Web Development Bootcamp. Sprout Spy, is an application that will help new or future gardeners understand what kinds of seeds and cuttings can be planted in their local planting zone, as well as search for local public gardens for those who do not have planting space in their area. Our application displays the day's current weather to plan your trip to your local garden accordingly.",
+        "image": "./images/gotgit.png",
+        "deployed_link": "https://sprout-spy.herokuapp.com/",
+        "github_link": "https://github.com/got-git-group/SproutSpy-3.0"
+    },
+    {
+        "name": "Staff Tracker",
+        "description": "Staff Tracker allows for the addition and deletion of employees within a user's company; all pertinent information regarding employment is stored within a database and maintained by the user.",
+        "image": "./images/stafftracker.png",
+        "tutorial": "https://www.youtube.com/watch?v=pCp4e6PscmY",
+        "github_link": "https://github.com/AndyAn7/Staff-Tracker"
+    },
+    {
+        "name": "eCommerce",
+        "description": "An eCommerce application utilizing the latest technologies (Sequelize, Express.js API, and MySQL database) so as to remain at the apex of competition.",
+        "image": "./images/eComm.png",
+        "tutorial": "https://www.youtube.com/watch?v=hkb408ztgfY",
+        "github_link": "https://github.com/AndyAn7/eCommerce-back-end"
+    },
+    {
+        "name": "Social API",
+        "description": " A social networking application where users can post, view, and comment on users' thoughts.",
+        "image": "./images/socialapi.png",
+        "tutorial": "https://www.youtube.com/watch?v=G7OC7tvVprA&t=4s",
+        "github_link": "https://github.com/AndyAn7/SocialAPI"
+    },
+    {
+        "name": "App Weather",
+        "description": "Upon arrival, the user is extended an input field where a city can be submitted in order to retrieve weather data; also, a five day forecast is presented beneath the current forecast.",
+        "deployed_link": "https://andyan7.github.io/appWeather/",
+        "github_link": "https://github.com/AndyAn7/appWeather"
+        },
+    {
+        "name": "Daily Itinerary",
+        "description": "A Bootstrap/jQuery daily planner.",
+        "image": "./images/itinerary.png",
+        "deployed_link": "https://andyan7.github.io/Daily-Itinerary/",
+        "github_link": "https://github.com/AndyAn7/Daily-Itinerary"
+        },
+    {
+        "name": "Express Notes",
+        "description": "A note taking application that allows the user to store and clear the days' memos.",
+        "image": "./images/express.png",
+        "deployed_link": "https://notetakerexpressv1.herokuapp.com/",
+        "github_link": "https://github.com/AndyAn7/Express-Note-Taker"
+    },
+    {
+        "name": "Itero Tech Blog",
+        "description": "A Bootstrap/jQuery daily planner.",
+        "image": "./images/itero.png",
+        "deployed_link": "https://iterotechblog.herokuapp.com/",
+        "github_link": "https://github.com/AndyAn7/Itero-tech-blog"
+    }
+  ]
