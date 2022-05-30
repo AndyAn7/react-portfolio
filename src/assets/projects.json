@@ -16,7 +16,7 @@
     {
         "name": "eCommerce",
         "description": "An eCommerce application utilizing the latest technologies (Sequelize, Express.js API, and MySQL database) so as to remain at the apex of competition.",
-        "image": "./images/eComm.png",
+        "image": "./images/ecomm.png",
         "tutorial": "https://www.youtube.com/watch?v=hkb408ztgfY",
         "github_link": "https://github.com/AndyAn7/eCommerce-back-end"
     },
@@ -30,6 +30,7 @@
     {
         "name": "App Weather",
         "description": "Upon arrival, the user is extended an input field where a city can be submitted in order to retrieve weather data; also, a five day forecast is presented beneath the current forecast.",
+        "image": "./images/appweather.png",
         "deployed_link": "https://andyan7.github.io/appWeather/",
         "github_link": "https://github.com/AndyAn7/appWeather"
     },
