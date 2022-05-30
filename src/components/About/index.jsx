@@ -3,29 +3,22 @@ import './index.sass';
 import Auth from '../Auth';
 
 function About() {
-
-    const itemList = ['MongoDB', 'Express', 'React', 'Node', 'Sass'];
-
-    const renderList = itemList.map((item, index) => 
-                             <div key=
-                             {index}>{item}
-                             </div>
-                           );
     return (
         <>
             <div className='authStyle'>
 
                 <Auth />
 
-                <div className='showcaseTwo'>
+                <div className='showcase'>
                     <h1>About</h1>
                 </div>
             </div>
 
+            
             <section className='aboutText'>
                 <p>Welcome to my portfolio!</p>
                 
-                <p>I've recently begun the process of immersing myself in computer science with an aim to take part in the advance of humanity via technology and the data derived within. In time, I intend on entering into the field of technology upon the foundation of Full-Stack development; thenceforth, I plan to study and perform my way into the field of data science to take part in the apex of technology as is current, Artificial Intelligence.</p>
+                    <p>I've recently begun the process of immersing myself in computer science with an aim to take part in the advance of humanity via technology and the data derived within. In time, I intend on entering into the field of technology upon the foundation of Full-Stack development; thenceforth, I plan to study and perform my way into the field of data science to take part in the apex of technology as is current, Artificial Intelligence.</p>
 
                 <p>Here, at this juncture of my path into computer science, I present basic assignments and projects I've completed, or taken part in completing, during my time as a student at the University of Washington's Full-Stack Boot Camp program.</p>
                     
@@ -37,10 +30,6 @@ function About() {
             <div className='langTop'>
                 {'<>'}
             </div>
-
-                <div className="aboutList">
-                    {renderList}
-                </div>
 
             <div className='langBot'>
                 {'</>'}
