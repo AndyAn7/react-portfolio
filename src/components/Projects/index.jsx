@@ -10,9 +10,9 @@ const Projects = () => {
           <Auth />
 
           <div className='showcase'>
-          <p>Projects</p>
+          <h1>Projects</h1>
           </div>
-          
+
         </div>
         
     </>

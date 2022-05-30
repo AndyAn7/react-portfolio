@@ -5,7 +5,15 @@ import Auth from '../Auth';
 const About = () => {
     return(
         <>
-          <Auth />
+        <div className='authStyle'>
+
+            <Auth />
+
+            <div className='showcaseTwo'>
+                <h1>About</h1>
+            </div>
+        </div>
+
             <section title="About Me">
                 <p>Welcome to my portfolio!</p>
                 
