@@ -7,10 +7,12 @@ const Auth = () => {
     return (
         <>
             <div className='auth'>
+
                 <section className='logo'>
-                <Link to='/'>
-                    <img className='sub-logo' src={AuthIMG} alt='author' />
-                </Link>
+
+                    <Link to='/'>
+                        <img className='sub-logo' src={AuthIMG} alt='author' />
+                    </Link>
 
                     <p className="authName">
                         Andrew M. An

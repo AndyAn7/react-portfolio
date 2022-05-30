@@ -10,7 +10,7 @@ const Projects = () => {
           <Auth />
 
           <div className='showcase'>
-          <h1>Projects</h1>
+            <h1>Projects</h1>
           </div>
 
         </div>

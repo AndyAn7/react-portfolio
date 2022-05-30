@@ -5,7 +5,15 @@ import Auth from '../Auth';
 const Contact = () => {
     return (
         <>
-           <Auth />                    
+           <div className='authStyle'>
+
+                <Auth />
+
+                <div className='showcase'>
+                    <h1>Contact</h1>
+                </div>
+
+            </div>                
         </>
     )
 }
