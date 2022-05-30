@@ -4,9 +4,6 @@ import './index.sass';
 const Projects = () => {
   return (
     <>
-      {/* <p>
-          HELLO WORLD
-      </p> */}
 
     </>
   )
