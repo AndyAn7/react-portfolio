@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import './index.sass';
 import AuthIMG from '../../assets/images/profilePic.png';
 
-const Header = () => {
+const Auth = () => {
     return (
         <>
-            <div className='header'>
+            <div className='auth'>
                 <section className='logo'>
                 <Link to='/'>
                     <img className='sub-logo' src={AuthIMG} alt='author' />
@@ -22,4 +22,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Auth;

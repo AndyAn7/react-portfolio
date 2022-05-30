@@ -1,9 +1,11 @@
 import React from 'react';
 import './index.sass';
+import Auth from '../Auth';
 
 const About = () => {
     return(
         <>
+          <Auth />
             <section title="About Me">
                 <p>Welcome to my portfolio!</p>
                 

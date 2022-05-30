@@ -1,13 +1,11 @@
 import React from 'react';
 import './index.sass';
+import Auth from '../Auth';
 
 const Projects = () => {
   return (
     <>
-      {/* <p>
-          HELLO WORLD
-      </p> */}
-
+        <Auth />
     </>
   )
 }

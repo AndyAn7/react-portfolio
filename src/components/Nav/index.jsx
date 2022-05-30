@@ -11,16 +11,16 @@ const Nav = () => {
         <>
             <nav className='navLinks'>
 
-                <NavLink to='/' className='home'><img className='jhip' src={jhip} alt=''/>
+                <NavLink to='/' className='home'><img className='navg' src={jhip} alt=''/>
                 </NavLink>
 
-                <NavLink to='../Projects' className='projex'><img className='eel' src={eel} alt=''/>
+                <NavLink to='../Projects' className='projex'><img className='navg' src={eel} alt=''/>
                 </NavLink>
 
-                <NavLink to='../About' className='about'><img className='about' src={about} alt=''/>
+                <NavLink to='../About' className='about'><img className='navg' src={about} alt=''/>
                 </NavLink>
 
-                <NavLink to='../Contact' className='contact'><img className='contact' src={contact} alt=''/>
+                <NavLink to='../Contact' className='contact'><img className='navg' src={contact} alt=''/>
                 </NavLink>
 
             </nav>
