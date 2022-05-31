@@ -98,6 +98,9 @@ const Contact = () => {
       
         return (
           <>
+          <div className='showcase'>
+          <h1>Contact</h1>
+        </div>
           <div className='author'>
               <div className='auth'>
 
