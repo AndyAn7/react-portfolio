@@ -37,7 +37,6 @@
 .project-page
     position: absolute
     margin: auto
-    padding:100px
     max-width: 1500px
     font-size: 40px
     text-align: center
@@ -47,20 +46,23 @@
 
     .card-title
         font-style: bold
-        font-size: 50px
+        font-size: 30px
 
     .projects-container
-        top: 20%
+        top: 0
+        position: sticky
+        height: 150em
+        overflow: scroll
+        overflow-y: scroll
         display: grid
         gap: 2rem
-        justify-content: left
         opacity: 0
         animation: fadeIn 1.25s 1.5s
         animation-fill-mode: forwards
 
         p.cardtext
             font-size: 20px
-            font-weight: lighter
+            font-style: bold
             margin: 0
             padding: 0
             text-align: left
