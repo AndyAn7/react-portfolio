@@ -9,7 +9,7 @@ function About() {
 
                 <Auth />
 
-                <div className='showcase'>
+                <div className='showcase-about'>
                     <h1>About</h1>
                 </div>
             </div>

@@ -143,7 +143,7 @@ const Contact = () => {
                     {!validEmail && <p className="error-message">Invalid Email.</p>}
                   </li>
                   <li>
-                    <input
+                    <input className='sub-line'
                       type="text"
                       name="subject"
                       placeholder="Subject"
