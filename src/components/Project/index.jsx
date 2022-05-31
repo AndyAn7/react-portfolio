@@ -32,15 +32,7 @@ const Project = (props) => {
                     target="_blank"
                     className="card-link"
                     >   
-                    Deployment
-                    </a>
-                    <a
-                    href={props.project.tutorial}
-                    rel="noreferrer"
-                    target="_blank"
-                    className="card-link"
-                    >   
-                    Tutorial
+                    Deployment/Tutorial
                     </a>
                 </div>
             </div>

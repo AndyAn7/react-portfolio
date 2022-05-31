@@ -34,16 +34,36 @@
     animation: fadeInLeft 1s 1.25s
     animation-fill-mode: forwards
 
-    .project-page
-        padding: 120px 40px
-        max-width: 1200px
-        margin: auto
+.project-page
+    position: absolute
+    margin: auto
+    padding:100px
+    max-width: 1500px
+    font-size: 40px
+    text-align: center
+    left: 0
+    right: 0
+    background-color: transparent
 
-        .projects-container
-            padding-left: 10px
-            display: grid
-            gap: 2rem
-            justify-content: left
+    .card-title
+        font-style: bold
+        font-size: 50px
+
+    .projects-container
+        top: 20%
+        display: grid
+        gap: 2rem
+        justify-content: left
+        opacity: 0
+        animation: fadeIn 1.25s 1.5s
+        animation-fill-mode: forwards
+
+        p.cardtext
+            font-size: 20px
+            font-weight: lighter
+            margin: 0
+            padding: 0
+            text-align: left
             opacity: 0
-            animation: fadeIn 1.25s 1.5s
+            animation: fadeIn 1.5s 1.75s
             animation-fill-mode: forwards
