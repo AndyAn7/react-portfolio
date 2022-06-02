@@ -52,7 +52,7 @@ Welcome In!
 * GitHub: [AndyAn7](https://github.com/AndyAn7)
 * email: andyan7@gmail.com
 
-![linkd](https://www.linkedin.com/in/andyrooh?trk=profile-badge)
+<!-- ![linkd](https://www.linkedin.com/in/andyrooh?trk=profile-badge) -->
               
 # License
 MIT License
