@@ -1,27 +1,40 @@
 .contact-page
-    display: absolute
+    display: flexbox
+    position: absolute
     font-family: Arial, Helvetica, sans-serif
+    bottom: 8em
+    right: 9vw
+    min-width: 50vw
     color: #000000
-    padding: 50px 30px
-    max-width: 800px
-    top: 0
     margin: auto
-    margin-top: 0
     font-size: 20px
+    opacity: 1
+    animation: fadeIn 2s 2.5s #000 10px 10px 10px
+    animation-fill-mode: forwards
 
-h1, h2
-    font-size: 5em bold
+.contact-page-container h1, h2
+    font-size: 20px bold
     padding-top: 10px
     color: #000000
     opacity: 0
-    animation: fadeInLeft 0.5s 0.5s
+    animation: fadeInUp 1.5s 2s
     animation-fill-mode: forwards
 
 h2
-    font-size: 20px bold
-    margin-bottom: 1em
+    font-size: 20px
+    margin-bottom: 2em
     color: #000000
 
+.showcaseC h1
+    position: absolute
+    top: 6.5%
+    right: 3.5%
+    width: 20.5%
+    font-size: 115px
+    margin: 0
+    opacity: 0
+    animation: fadeInLeft 1.25s 1.25s
+    animation-fill-mode: forwards
 p
     padding: 10px
 
@@ -40,11 +53,11 @@ ul
         display: block
         position: relative
         opacity: 0
-        animation: fadeInUp 2.5s 2.5s
+        animation: fadeInUp 3s 3s
         animation-fill-mode: forwards
         clear: both
         line-height: 1.5em
-    
+
 input
     .sub-line
         padding-left: 18px
@@ -60,9 +73,6 @@ input
         float: left
         clear: none
         line-height: 1.5em
-
-    &:first-child
-        margin-left: 0
 
 input[type="text"],
 input[type="email"]
@@ -99,18 +109,17 @@ textarea
     float: right
 
 .author
-
-    .logo
-        display: inline-flex
-        width: 1vw
-        height: 2vh
+    .auth
+        animation: fadeIn .5s .5s
+        animation-fill-mode: backwards
+        .logo
+            position: absolute
+            display: flex
+            height: 61vh
+            width: 34vw
+            top: 28vh
 
         .sub-logo
-            max-width: 30em
-            margin-left: 60px
-        .authName
-            display: absolute
-            font-weight: lighter
-            font-size: 100px
-            text-align: center
-            right: 0
+            width: 33vw
+            height: 61vh
+            margin: 0vh 1vw 0vw .5vw
