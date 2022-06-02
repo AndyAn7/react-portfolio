@@ -1,26 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import AuthIMG from '../../assets/images/profilePic.png';
 import './index.sass';
-import Auth from '../Auth';
 import Project from '../Project';
 const jsonProjects = require('../../assets/projects.json')
 
 const Projects = () => {
   return (
     <>
-      <div className='authStyle'>
+      <p className="authNamePro">
+        Andrew M. An
+      </p>
 
-        <Auth />
+      <Link to='/'>
+        <img className='sub-logoPro' src={AuthIMG} alt='author' />
+      </Link>
 
-        <div className='showcase'>
-          <h1>Projects</h1>
-        </div>
-
+      <div className='showcasePro'>
+        <h1>Projects</h1>
       </div>
 
       <div className="project-page">
 
         <div className="projects-container">
-          {jsonProjects.map((project) => (  
+          {jsonProjects.map((project) => (
             <Project key={project.name} project={project} />
           ))}
         </div>

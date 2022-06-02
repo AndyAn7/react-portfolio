@@ -4,67 +4,60 @@
 
         -ms-overflow-style: none
         scrollbar-width: none
-    
-.authStyle
-    .auth
-        width: 34vw
 
-        .logo 
-            display: inline-flex
-            width: 30vw
-            height: 38vh
-            margin-left: 90px
+.authNamePro
+    position: absolute
+    left: 0
+    top: 28%
+    font-size: 4em
+    font-weight: lighter
+    width: 6.25em
+    animation: fadeInDown 1.25s 1.25s
+    animation-fill-mode: backwards
 
-            .sub-logo 
-                max-width: 90%
-                border-radius: 50%
-                border-style: solid
-                border-width: 3px
-                border-color: black
-                margin: 220px 0 0 0
+.sub-logoPro
+    position: absolute
+    max-width: 10vw
+    border-radius: 50%
+    border-style: solid
+    border-width: 3px
+    border-color: black
+    left: 5.5em
+    top: 8em
+    animation: fadeInDown 1.25s 1.25s
+    animation-fill-mode: backwards
 
-            .authName 
-                font-weight: lighter
-                font-size: 50px
-                width: 80vw
-                margin: 275px 0 80px 0
-                text-align: left
-
-.showcase h1
+.showcasePro h1
     position: absolute
     top: 6.5%
-    right: 3%
+    right: 3.8%
     width: 20%
-    font-size: 115px
+    font-size: 8em
     margin: 0
     opacity: 0
-    animation: fadeInLeft 1s 1.25s
+    animation: fadeInLeft 1.5s 1.25s
     animation-fill-mode: forwards
 
 .project-page
-    box-shadow: 0px 200px 250px 65px #000
-    border-radius:3em
+    box-shadow: 150px 200px 250px 65px #000
     position: absolute
-    margin: auto
-    max-width: 1400px
+    bottom: 0
+    right: 3.85em
+    border-radius: 3em
+    width: 30em
     font-size: 40px
     text-align: center
-    left: 0
-    right: 0
     background-color: transparent
+    animation: fadeInRight 1.5s 1.25s
+    animation-fill-mode: backwards
 
-
-    .projects-container
-        @include hideScrollbar
-        border-radius:3em
-        background-color: transparent
-        top: 0
-        position: sticky
-        height: 680px
-        overflow-x: hidden
-        overflow-y: visible
-        display: grid
-        gap: 2rem
-        opacity: 1
-        // animation-fill-mode: forwards
-        // animation: fadeIn 1.25s 1.5s
+.projects-container
+    @include hideScrollbar
+    border-radius: 3em
+    background-color: transparent
+    position: sticky
+    height: 680px
+    overflow-x: hidden
+    overflow-y: visible
+    display: grid
+    opacity: 1

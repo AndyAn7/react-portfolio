@@ -6,9 +6,9 @@ import AuthIMG from '../../assets/images/profilePic.png';
 const Home = () => {
   return (
     <>
-        <Link to='/'>
-          <img className='sub-logoHome' src={AuthIMG} alt='author' />
-        </Link>
+      <Link to='/'>
+        <img className='sub-logoHome' src={AuthIMG} alt='author' />
+      </Link>
 
       <p className="authNameHome">
         Andrew M. An

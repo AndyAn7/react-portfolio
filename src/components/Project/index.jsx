@@ -1,17 +1,17 @@
-import React from 'react';  
+import React from 'react';
 import './index.sass';
 
 const Project = (props) => {
-    return(
+    return (
         <>
             <div className="card">
                 <div className="card-header">
                     <h1 className="card-title">{props.project.name}
                     </h1>
                     <img
-                    className="card-image"
-                    src={props.project.image}
-                    alt={props.project.name}
+                        className="card-image"
+                        src={props.project.image}
+                        alt={props.project.name}
                     />
                 </div>
 
@@ -19,20 +19,20 @@ const Project = (props) => {
                 </p>
                 <div className="card-links">
                     <a
-                    href={props.project.github_link}
-                    rel="noreferrer"
-                    target="_blank"
-                    className="card-link"
+                        href={props.project.github_link}
+                        rel="noreferrer"
+                        target="_blank"
+                        className="card-link"
                     >
-                    GitHub
+                        GitHub
                     </a>
                     <a
-                    href={props.project.deployed_link}
-                    rel="noreferrer"
-                    target="_blank"
-                    className="card-linkB"
-                    >   
-                    Deployment/Tutorial
+                        href={props.project.deployed_link}
+                        rel="noreferrer"
+                        target="_blank"
+                        className="card-linkB"
+                    >
+                        Deployment/Tutorial
                     </a>
                 </div>
             </div>
