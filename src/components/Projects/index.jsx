@@ -20,11 +20,10 @@ const Projects = () => {
       <div className="project-page">
 
         <div className="projects-container">
-          {jsonProjects.map((project) => (
+          {jsonProjects.map((project) => (  
             <Project key={project.name} project={project} />
           ))}
         </div>
-        
       </div>
     </>
   )
