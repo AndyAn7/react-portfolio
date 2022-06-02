@@ -1,3 +1,10 @@
+@mixin hideScrollbar
+    &::-webkit-scrollbar
+        display: none
+
+        -ms-overflow-style: none
+        scrollbar-width: none
+    
 .authStyle
     .auth
         width: 34vw
@@ -35,39 +42,29 @@
     animation-fill-mode: forwards
 
 .project-page
+    box-shadow: 0px 0px 100px 10px #000000
+    border-radius:3em
     position: absolute
     margin: auto
-    max-width: 1500px
+    max-width: 1400px
     font-size: 40px
     text-align: center
     left: 0
     right: 0
     background-color: transparent
 
-    .card-title
-        font-style: bold
-        font-size: 30px
 
     .projects-container
-        top: 0
+        @include hideScrollbar
         border-radius:3em
+        background-color: transparent
+        top: 0
         position: sticky
-        height: 150em
-        overflow: scroll
-        overflow-y: scroll
+        height: 680px
+        overflow-x: hidden
+        overflow-y: visible
         display: grid
         gap: 2rem
-        opacity: 0
-        animation: fadeIn 1.25s 1.5s
-        animation-fill-mode: forwards
-
-        p.cardtext
-            font-size: 20px
-            font-style: bold
-            margin: 0
-            padding: 0
-            text-align: left
-            opacity: 0
-            animation: fadeIn 1.5s 1.75s
-            animation-fill-mode: forwards
-            z-index: 1
+        opacity: 1
+        // animation-fill-mode: forwards
+        // animation: fadeIn 1.25s 1.5s

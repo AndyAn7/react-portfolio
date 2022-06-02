@@ -30,7 +30,7 @@ const Project = (props) => {
                     href={props.project.deployed_link}
                     rel="noreferrer"
                     target="_blank"
-                    className="card-link"
+                    className="card-linkB"
                     >   
                     Deployment/Tutorial
                     </a>
