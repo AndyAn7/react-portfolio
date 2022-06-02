@@ -105,10 +105,10 @@ const Contact = () => {
           <div className='author'>
               <div className='auth'>
 
-                <section className='logo'>
+                <section className='logoCon'>
 
                   <Link to='/'>
-                    <img className='sub-logo' src={AuthIMG} alt='author' />
+                    <img className='sub-logoCon' src={AuthIMG} alt='author' />
                   </Link>
                 </section>
               </div>

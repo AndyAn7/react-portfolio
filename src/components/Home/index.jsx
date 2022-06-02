@@ -1,12 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './index.sass';
-import Auth from '../Auth';
+import AuthIMG from '../../assets/images/profilePic.png';
 
 const Home = () => {
   return (
     <>
-        <Auth />
-    <div className='welcomePage'>
+        <Link to='/'>
+          <img className='sub-logoHome' src={AuthIMG} alt='author' />
+        </Link>
+
+      <p className="authNameHome">
+        Andrew M. An
+      </p>
+
+      <div className='welcomePage'>
         <h1 className='Port'>
           Portfolio
         </h1>

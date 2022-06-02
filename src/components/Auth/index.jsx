@@ -11,7 +11,7 @@ const Auth = () => {
                 <section className='logo'>
 
                     <Link to='/'>
-                        <img className='sub-logo' src={AuthIMG} alt='author' />
+                        <img className='sub-logoAuth' src={AuthIMG} alt='author' />
                     </Link>
 
                     <p className="authName">
