@@ -40,20 +40,12 @@ Welcome In!
 
 # Mockup
 [![image](./src/assets/images/ss.1.png)](https://andyan7.github.io/react-portfolio/)
-
-<!--[![image](./src/assets/images/ss.1.png)](https://andyan7.github.io/react-portfolio/) -->
-
 # App Links
 [GitHub Repo](https://github.com/AndyAn7/react-portfolio)
-
 [GitHub Application](https://react-portfolio--andyan.herokuapp.com/)
-
 # Contact
 * GitHub: [AndyAn7](https://github.com/AndyAn7)
 * email: andyan7@gmail.com
-
-<!-- ![linkd](https://www.linkedin.com/in/andyrooh?trk=profile-badge) -->
-              
 # License
 MIT License
 
