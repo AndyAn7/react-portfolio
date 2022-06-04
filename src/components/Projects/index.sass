@@ -1,7 +1,10 @@
-// @use 'hideScrollbar'
+@mixin hideScrollbar
+    &::-webkit-scrollbar
+        display: none
 
-.projex
-    
+        -ms-overflow-style: none
+        scrollbar-width: none
+
 .authNamePro
     position: absolute
     left: 0
@@ -12,46 +15,49 @@
     animation: fadeInDown 1.25s 1.25s
     animation-fill-mode: backwards
 
-    .sub-logoPro
-        position: absolute
-        max-width: 10vw
-        border-radius: 50%
-        border-style: solid
-        border-width: 3px
-        border-color: black
-        left: 5.5em
-        top: 8em
-        animation: fadeInDown 1.25s 1.25s
-        animation-fill-mode: backwards
+.sub-logoPro
+    position: absolute
+    max-width: 10vw
+    border-radius: 50%
+    border-style: solid
+    border-width: 3px
+    border-color: black
+    left: 5.5em
+    top: 8em
+    animation: fadeInDown 1.25s 1.25s
+    animation-fill-mode: backwards
 
-    .showcasePro h1
-        position: absolute
-        top: 6.5%
-        right: 3.8%
-        width: 20%
-        font-size: 8em
-        margin: 0
-        opacity: 0
-        animation: fadeInLeft 1.5s 1.25s
-        animation-fill-mode: forwards
+.showcasePro h1
+    position: absolute
+    top: 6.5%
+    right: 3.8%
+    width: 20%
+    font-size: 8em
+    margin: 0
+    opacity: 0
+    animation: fadeInLeft 1.5s 1.25s
+    animation-fill-mode: forwards
 
-    .project-page
-        // @include hideScrollbar
-        box-shadow: 175px 300px 250px 5px #000
-        position: absolute
-        bottom: .75em
-        right: 3.25em
-        border-radius: 3em
-        width: 30em
-        font-size: 40px
-        text-align: center
-        background-color: transparent
-        animation: fadeInRight 3s 2s
-        animation-fill-mode: backwards
+.project-page
+    box-shadow: 175px 300px 250px 5px #000
+    position: absolute
+    bottom: .75em
+    right: 3.25em
+    border-radius: 3em
+    width: 30em
+    font-size: 40px
+    text-align: center
+    background-color: transparent
+    animation: fadeInRight 3s 2s
+    animation-fill-mode: backwards
 
-    .projects-container
-            height: 680px
-            overflow-x: hidden
-            overflow-y: visible
-            display: grid
-            opacity: 1
+.projects-container
+    @include hideScrollbar
+    border-radius: 3em
+    background-color: transparent
+    position: sticky
+    height: 680px
+    overflow-x: hidden
+    overflow-y: visible
+    display: grid
+    opacity: 1
