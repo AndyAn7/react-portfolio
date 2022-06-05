@@ -1,14 +1,15 @@
-@forward '../../styles/about'
+@use  '../../styles/vars'
 
 .authNameAbout
-    position: absolute
-    left: 1
-    top: 28vh
-    font-size: 4em
-    font-weight: lighter
-    width: 7em
-    animation: fadeInDown 1.25s 1.25s
-    animation-fill-mode: backwards
+    @include vars.mobile1
+        position: absolute
+        left: 1
+        top: 28vh
+        font-size: 4em
+        font-weight: lighter
+        width: 7em
+        animation: fadeInDown 1.25s 1.25s
+        animation-fill-mode: backwards
 
 .sub-logoAbout
     position: absolute

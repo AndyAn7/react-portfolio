@@ -6,9 +6,9 @@ $desktop: 1440px
 
 @mixin mobile1
     @media screen and (min-width: $mobile1)
-        @content
-
-.authNameAbout
+    @content
+    .authNameAbout
+    display: none
     position: absolute
     left: 1
     top: 28vh
@@ -83,18 +83,18 @@ $desktop: 1440px
     animation: fadeInLeft 1.5s 1.25s
     animation-fill-mode: forwards
 
-// @mixin mobile2
-//     @media screen and (min-width: $mobile2)
-//         @content
+@mixin mobile2
+    @media screen and (min-width: $mobile2)
+        @content
 
-// @mixin tablet
-//     @media screen and (min-width: $tablet)
-//         @content
+@mixin tablet
+    @media screen and (min-width: $tablet)
+        @content
 
-// @mixin laptop
-//     @media screen and (min-width: $laptop)
-//         @content
+@mixin laptop
+    @media screen and (min-width: $laptop)
+        @content
 
-// @mixin desktop
-//     @media screen and (min-width: $desktop)
-//         @content
+@mixin desktop
+    @media screen and (min-width: $desktop)
+        @content
