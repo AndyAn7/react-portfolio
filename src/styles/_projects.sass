@@ -1,30 +1,26 @@
+@use './vars'
+
 @mixin mobile1
-    @media
-        min-width: 0px
-            @content
+    @media screen and (min-width: $mobile1)
+        @content
 
 @mixin mobile2
-    @medias
-        min-width: 420px
-            @content
+    @media screen and (min-width: $mobile2)
+        @content
 
 @mixin tablet
-    @media
-        min-width: 775px
-            @content
+    @media screen and (min-width: $tablet)
+        @content
 
 @mixin laptop
-    @media
-        min-width: 1500px
-            @content
+    @media screen and (min-width: $laptop)
+        @content
 
 @mixin desktop
-    @media
-        min-width: 1920px
-            @content
+    @media screen and (min-width: $desktop)
+        @content
 
-
-    .authNamePro
+.authNamePro
     position: absolute
     left: 1
     top: 28vh
@@ -56,36 +52,26 @@
     opacity: 0
     animation: fadeInLeft 1.5s 1.25s
     animation-fill-mode: forwards
+
 .project-page
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
+    box-shadow: 175px 300px 250px 5px #000
+    position: absolute
+    bottom: .75em
+    right: 3.25em
+    border-radius: 3em
+    width: 30em
+    font-size: 40px
+    text-align: center
+    background-color: transparent
+    animation: fadeInRight 3s 2s
+    animation-fill-mode: backwards
 
 .projects-container
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
+    border-radius: 3em
+    background-color: transparent
+    position: sticky
+    height: 680px
+    overflow-x: hidden
+    overflow-y: visible
+    display: grid
+    opacity: 1

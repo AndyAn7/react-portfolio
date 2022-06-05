@@ -1,41 +1,47 @@
+@use './vars'
+
 @mixin mobile1
-    @media
-        min-width: 0px
-            @content
+    @media screen and (min-width: $mobile1)
+        @content
 
 @mixin mobile2
-    @medias
-        min-width: 420px
-            @content
+    @media screen and (min-width: $mobile2)
+        @content
 
 @mixin tablet
-    @media
-        min-width: 775px
-            @content
+    @media screen and (min-width: $tablet)
+        @content
 
 @mixin laptop
-    @media
-        min-width: 1500px
-            @content
+    @media screen and (min-width: $laptop)
+        @content
 
 @mixin desktop
-    @media
-        min-width: 1920px
-            @content
+    @media screen and (min-width: $desktop)
+        @content
 
 .auth
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
+    width: 100vw
+
+    .logo
+        display: inline-flex
+        width: 100vw
+        min-height: 60vh
+
+        .sub-logoAuth
+            max-width: 100vw
+            border-radius: 50%
+            border-style: solid
+            border-width: 3px
+            border-color: black
+            margin: 20em 0 0 2em
+
+        a img
+            width: 35vw
+
+        .authName
+            font-weight: lighter
+            font-size: 200px
+            width: 98.5vw
+            margin: 250px 75px 50px 0px
+            text-align: right

@@ -1,41 +1,39 @@
+@use './vars'
+
 @mixin mobile1
-    @media
-        min-width: 0px
-            @content
+    @media screen and (min-width: $mobile1)
+        @content
 
 @mixin mobile2
-    @medias
-        min-width: 420px
-            @content
+    @media screen and (min-width: $mobile2)
+        @content
 
 @mixin tablet
-    @media
-        min-width: 775px
-            @content
+    @media screen and (min-width: $tablet)
+        @content
 
 @mixin laptop
-    @media 
-        min-width: 1500px
-            @content
+    @media screen and (min-width: $laptop)
+        @content
 
 @mixin desktop
-    @media 
-        min-width: 1920px
-            @content
+    @media screen and (min-width: $desktop)
+        @content
 
 .navLinks
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
+    position: absolute
+    right: 0
+    top: 0
+    animation: fadeIn 2s 2s
+    animation-fill-mode: backwards
+
+    img
+        display: flex
+        flex-direction: inline
+        align-content: space-between
+        border: 1.5px solid black
+        border-radius: .25rem
+        width: 40px
+        min-height: 40px
+        margin: 40px 10px 40px 10px
+        box-shadow: 0px 0px 3px 3.5px black

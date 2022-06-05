@@ -1,41 +1,69 @@
+@use './vars'
+
 @mixin mobile1
-    @media 
-        min-width: 0px
-            @content
+    @media screen and (min-width: $mobile1)
+        @content
 
 @mixin mobile2
-    @medias
-        min-width: 420px
-            @content
+    @media screen and (min-width: $mobile2)
+        @content
 
 @mixin tablet
-    @media
-        min-width: 775px
-            @content
+    @media screen and (min-width: $tablet)
+        @content
 
 @mixin laptop
-    @media
-        min-width: 1500px
-            @content
+    @media screen and (min-width: $laptop)
+        @content
 
 @mixin desktop
-    @media
-        min-width: 1920px
-            @content
+    @media screen and (min-width: $desktop)
+        @content
 
 .card
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
+    border-radius: 50px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+    .card-header
+        margin: .5em
+
+        .card-title
+            font-size: 6rem
+            font-weight: bold
+            color: black
+            text-align: center
+            padding-bottom: 1rem
+
+        .card-image
+            min-height: 1.5vh
+            width: 20vw
+            object-fit: fill
+
+    .card-text
+        font-size: 2rem
+        padding: 1rem
+        color: #000000
+        flex-grow: 1
+
+    .card-links
+        display: flex
+        font-size: 2.5rem
+        font-weight: bold
+        flex-direction: column
+        padding: .55em
+        cursor: auto
+        width: 8.5em
+        align-items: center
+        align-self: center
+
+        .card-link
+            text-decoration: none
+            color: #000000
+            margin: .3rem
+
+        .card-linkB
+            text-decoration: none
+            color: #000000
+            margin: .3rem

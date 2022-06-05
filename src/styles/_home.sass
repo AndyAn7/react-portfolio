@@ -1,76 +1,53 @@
+@use './vars'
+
 @mixin mobile1
-    @media
-        min-width: 0px
-            @content
+    @media screen and (min-width: $mobile1)
+        @content
 
 @mixin mobile2
-    @medias 
-        min-width: 420px
-            @content
+    @media screen and (min-width: $mobile2)
+        @content
 
 @mixin tablet
-    @media
-        min-width: 775px
-            @content
+    @media screen and (min-width: $tablet)
+        @content
 
 @mixin laptop
-    @media
-        min-width: 1500px
-            @content
+    @media screen and (min-width: $laptop)
+        @content
 
 @mixin desktop
-    @media
-        min-width: 1920px
-            @content
+    @media screen and (min-width: $desktop)
+        @content
 
 .authNameHome
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
+    position: absolute
+    left: 39%
+    top: 30%
+    font-size: 12em
+    font-weight: lighter
+    width: 6.25em
+    animation: fadeInRight 1.25s 1.25s
+    animation-fill-mode: backwards
 
 .sub-logoHome
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
+    position: absolute
+    max-width: 35vw
+    border-radius: 50%
+    border-style: solid
+    border-width: 3px
+    border-color: black
+    left: 2em
+    top: 19.5em
+    animation: fadeInRight 1.2s 2.5s
+    animation-fill-mode: backwards
 
 .welcomePage
     .Port
-        @include xs
-            width: 0px
-            height: 0px
-        @include sm
-            width: 0px
-            height: 0px
-        @include md
-            width: 0px
-            height: 0px
-        @include lg
-            width: 0px
-            height: 0px
-        @include xl
-            width: 0px
-            height: 0px
+        position: absolute
+        top: 63%
+        right: 4%
+        font-size: 275px
+        animation: fadeInRight 4s 3.75s
+        animation-fill-mode: backwards
+        opacity: 1
