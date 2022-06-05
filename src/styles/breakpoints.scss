@@ -1,0 +1,401 @@
+// $breakpoints: ('(min-width: 0px)', '(min-width: 576px)', '(min-width: 768px)', '(min-width: 992px)', '(min-width: 1200px)')
+
+// @mixin xs
+//     @media (min-width: 0px)
+//         @content
+
+// @mixin sm
+//     @media (min-width: 76px)
+//         @content
+
+// @mixin md
+//     @media (min-width: 768px)
+//         @content
+
+// @mixin lg
+//     @media (min-width: 992px)
+//         @content
+
+// @mixin xl
+//     @media (min-width: 1200px)
+//         @content
+
+// @mixin breakpoint ($bp: 0)
+//     @media (min-width: $bp)
+//         @content
+
+// .authNameAbout
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .sub-logoAbout
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px    
+
+// .aboutText
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .langTop
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .langBot
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .showcase-about h1
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .auth
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .contact-page
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .contact-page-container
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .showcaseC h1
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .author
+//     .auth
+//         @include xs
+//             width: 0px
+//             height: 0px
+//         @include sm
+//             width: 0px
+//             height: 0px
+//         @include md
+//             width: 0px
+//             height: 0px
+//         @include lg
+//             width: 0px
+//             height: 0px
+//         @include xl
+//             width: 0px
+//             height: 0px
+
+// .iconLinks
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .authNameHome
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .sub-logoHome
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .welcomePage
+//     .Port
+//         @include xs
+//             width: 0px
+//             height: 0px
+//         @include sm
+//             width: 0px
+//             height: 0px
+//         @include md
+//             width: 0px
+//             height: 0px
+//         @include lg
+//             width: 0px
+//             height: 0px
+//         @include xl
+//             width: 0px
+//             height: 0px
+
+// .navLinks
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .card
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .authNamePro
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .sub-logoPro
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .showcasePro h1
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .project-page
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
+
+// .projects-container
+//     @include xs
+//         width: 0px
+//         height: 0px
+//     @include sm
+//         width: 0px
+//         height: 0px
+//     @include md
+//         width: 0px
+//         height: 0px
+//     @include lg
+//         width: 0px
+//         height: 0px
+//     @include xl
+//         width: 0px
+//         height: 0px
