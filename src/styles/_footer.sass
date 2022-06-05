@@ -1,22 +1,27 @@
 @mixin xs
-    @media (min-width: 0px)
-        @content
+    @media screen 
+        min-width: 0px
+            @content
 
 @mixin sm
-    @media (min-width: 76px)
-        @content
+    @medias screen
+        min-width: 420px
+            @content
 
 @mixin md
-    @media (min-width: 768px)
-        @content
+    @media screen
+        min-width: 775px
+            @content
 
 @mixin lg
-    @media (min-width: 992px)
-        @content
+    @media screen
+        min-width: 1500px
+            @content
 
 @mixin xl
-    @media (min-width: 1200px)
-        @content
+    @media screen
+        min-width: 1920px
+            @content
 
 .iconLinks
     @include xs
