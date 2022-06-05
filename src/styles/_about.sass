@@ -1,26 +1,26 @@
-@mixin xs
-    @media screen 
-        min-width: 0px
+@mixin mobile1
+    @media 
+        min-width: $mobile1
             @content
 
-@mixin sm
-    @medias screen
-        min-width: 420px
+@mixin mobile2
+    @media
+        min-width: $mobile2
             @content
 
-@mixin md
-    @media screen
-        min-width: 775px
+@mixin tablet
+    @media
+        min-width: $tablet
             @content
 
-@mixin lg
-    @media screen
-        min-width: 1500px
+@mixin laptop
+    @media
+        min-width: $laptop
             @content
 
-@mixin xl
-    @media screen
-        min-width: 1920px
+@mixin desktop
+    @media
+        min-width: $desktop
             @content
 
 .authNameAbout

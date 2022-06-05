@@ -1,80 +1,29 @@
-@mixin xs
-    @media screen 
+@mixin mobile1
+    @media 
         min-width: 0px
             @content
 
-@mixin sm
-    @medias screen
+@mixin mobile2
+    @medias
         min-width: 420px
             @content
 
-@mixin md
-    @media screen
+@mixin tablet
+    @media
         min-width: 775px
             @content
 
-@mixin lg
-    @media screen
+@mixin laptop
+    @media
         min-width: 1500px
             @content
 
-@mixin xl
-    @media screen
+@mixin desktop
+    @media
         min-width: 1920px
             @content
 
 .card
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
-
-.authNamePro
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
-
-.sub-logoPro
-    @include xs
-        width: 0px
-        height: 0px
-    @include sm
-        width: 0px
-        height: 0px
-    @include md
-        width: 0px
-        height: 0px
-    @include lg
-        width: 0px
-        height: 0px
-    @include xl
-        width: 0px
-        height: 0px
-
-.showcasePro h1
     @include xs
         width: 0px
         height: 0px

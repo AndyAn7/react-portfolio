@@ -1,28 +1,61 @@
-@mixin xs
-    @media screen 
+@mixin mobile1
+    @media
         min-width: 0px
             @content
 
-@mixin sm
-    @medias screen
+@mixin mobile2
+    @medias
         min-width: 420px
             @content
 
-@mixin md
-    @media screen
+@mixin tablet
+    @media
         min-width: 775px
             @content
 
-@mixin lg
-    @media screen
+@mixin laptop
+    @media
         min-width: 1500px
             @content
 
-@mixin xl
-    @media screen
+@mixin desktop
+    @media
         min-width: 1920px
             @content
 
+
+    .authNamePro
+    position: absolute
+    left: 1
+    top: 28vh
+    font-size: 4em
+    font-weight: lighter
+    width: 7em
+    animation: fadeInDown 1.25s 1.25s
+    animation-fill-mode: backwards
+
+.sub-logoPro
+    position: absolute
+    max-width: 10vw
+    border-radius: 50%
+    border-style: solid
+    border-width: 3px
+    border-color: black
+    left: 5.5em
+    top: 8em
+    animation: fadeInDown 1.25s 1.25s
+    animation-fill-mode: backwards
+
+.showcasePro h1
+    position: absolute
+    top: 6.5%
+    right: 3.8%
+    width: 20%
+    font-size: 8em
+    margin: 0
+    opacity: 0
+    animation: fadeInLeft 1.5s 1.25s
+    animation-fill-mode: forwards
 .project-page
     @include xs
         width: 0px
