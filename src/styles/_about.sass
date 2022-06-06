@@ -4,11 +4,11 @@ $tablet: 768px
 $laptop: 1024px
 $desktop: 1440px
 
-@mixin mobile1
-    @media screen and (min-width: $mobile1)
+@mixin tablet
+    @media screen and (min-width: $tablet)
     @content
-    .authNameAbout
-    // display: none
+.authNameAbout
+    display: none
     position: absolute
     left: 1
     top: 28vh
@@ -19,7 +19,6 @@ $desktop: 1440px
     animation-fill-mode: backwards
 
 .sub-logoAbout
-    // display: none
     position: absolute
     max-width: 10vw
     border-radius: 50%
