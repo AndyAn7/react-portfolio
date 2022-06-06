@@ -6,18 +6,20 @@ $desktop: 1440px
 
 @mixin mobile1
     @media screen and (min-width: $mobile1)
-        @content
-        .authNameAbout
-        position: absolute
-        left: 1
-        top: 28vh
-        font-size: 4em
-        font-weight: lighter
-        width: 7em
-        animation: fadeInDown 1.25s 1.25s
-        animation-fill-mode: backwards
+    @content
+    .authNameAbout
+    // display: none
+    position: absolute
+    left: 1
+    top: 28vh
+    font-size: 4em
+    font-weight: lighter
+    width: 7em
+    animation: fadeInDown 1.25s 1.25s
+    animation-fill-mode: backwards
 
 .sub-logoAbout
+    // display: none
     position: absolute
     max-width: 10vw
     border-radius: 50%
