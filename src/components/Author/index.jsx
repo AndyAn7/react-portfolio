@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './index.sass';
 import AuthIMG from '../../assets/images/profilePic.png';
 
-const Auth = () => {
+const Author = () => {
     return (
         <>
             <div className='auth'>
@@ -24,4 +24,4 @@ const Auth = () => {
     )
 }
 
-export default Auth;
+export default Author;

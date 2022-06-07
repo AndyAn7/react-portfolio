@@ -4,11 +4,7 @@ $tablet: 768px
 $laptop: 1024px
 $desktop: 1440px
 
-@mixin tablet
-    @media screen and (min-width: $tablet)
-    @content
 .authNameAbout
-    display: none
     position: absolute
     left: 1
     top: 28vh
@@ -63,7 +59,7 @@ $desktop: 1440px
     position: absolute
     color: #000000
     min-width: 1.50em
-    // min-height: 1.
+    min-height: 1.4em
     top: 5.1em
     left: 11.5%
     font-size: 150px
@@ -82,6 +78,10 @@ $desktop: 1440px
     opacity: 0
     animation: fadeInLeft 1.5s 1.25s
     animation-fill-mode: forwards
+
+@mixin  mobile1
+    @media screen and (min-width: $mobile1)
+        @content
 
 @mixin mobile2
     @media screen and (min-width: $mobile2)
