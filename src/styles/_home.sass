@@ -8,34 +8,37 @@ $desktop: 1440px
     @media screen and (min-width: $mobile1)
         @content
         .authNameHome
-            display: none
             position: absolute
-            left: 39%
-            top: 30%
-            font-size: 12em
+            color: #000
+            left: 0em
+            top: 0em
+            font-size: .15vw
             font-weight: lighter
-            width: 6.25em
+            min-width: .01vw
+            min-height: .1vh
             animation: fadeInRight 1.25s 1.25s
             animation-fill-mode: backwards
 
         .sub-logoHome
             position: absolute
-            max-width: 35vw
-            border-radius: 50%
+            display: flex
+            max-width: 15vw
+            border-radius: 50em
             border-style: solid
             border-width: 3px
             border-color: black
             left: 2em
-            top: 19.5em
+            top: 0em
             animation: fadeInRight 1.2s 2.5s
             animation-fill-mode: backwards
 
         .welcomePage
             .Port
                 position: absolute
-                top: 63%
-                right: 4%
-                font-size: 275px
+                top: 0
+                right: 0
+                font-size: 1rem
+
                 animation: fadeInRight 4s 3.75s
                 animation-fill-mode: backwards
                 opacity: 1
