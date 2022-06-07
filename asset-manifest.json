@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d8522ab3.css",
+    "main.js": "/react-portfolio/static/js/main.6186c41a.js",
+    "static/media/bg.jpg": "/react-portfolio/static/media/bg.b360fd47ebab684ae55f.jpg",
+    "static/media/profilePic.png": "/react-portfolio/static/media/profilePic.18d5f4e8593618373ffc.png",
+    "static/media/projex.png": "/react-portfolio/static/media/projex.dfb7d954c60cac2b2109.png",
+    "static/media/집.png": "/react-portfolio/static/media/집.76d5fd79a2959a2b19a9.png",
+    "static/media/about.png": "/react-portfolio/static/media/about.6755f86e9a59e451d0d0.png",
+    "static/media/contact.png": "/react-portfolio/static/media/contact.e7834c2d53f4eb0794d5.png",
+    "static/media/gh.webp": "/react-portfolio/static/media/gh.8b48a3210f35c8c1bdb4.webp",
+    "static/media/insta.webp": "/react-portfolio/static/media/insta.320691ca76ca41277ecd.webp",
+    "static/media/linkd.webp": "/react-portfolio/static/media/linkd.92f5f71b1c768829593b.webp",
+    "static/media/face.webp": "/react-portfolio/static/media/face.737483e4160ff54234c1.webp",
+    "index.html": "/react-portfolio/index.html",
+    "main.d8522ab3.css.map": "/react-portfolio/static/css/main.d8522ab3.css.map",
+    "main.6186c41a.js.map": "/react-portfolio/static/js/main.6186c41a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8522ab3.css",
+    "static/js/main.6186c41a.js"
+  ]
+}
