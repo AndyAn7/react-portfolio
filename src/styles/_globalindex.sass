@@ -5,14 +5,18 @@ $laptop: 1024px
 $desktop: 1440px
 
 * 
+  min-width: 100vw
+  min-height:100vh
   :after
       clear: both
   :before 
       clear: both
   box-sizing: unset
-  // border: .1px
-  // border-color: black
-  // border-style: dashed
+
+  // placement helper
+  border: .1px
+  border-color: black
+  border-style: dashed
   
 body
   display: flex-box
@@ -20,6 +24,6 @@ body
   background: url('../assets/images/bg.jpg')
   background-size: cover
   background-repeat: no-repeat
-  min-height: fit-content
-  min-width: fit-content
-  overflow: clip    
+  min-height: 100vh
+  min-width: 100vw
+    overflow: clip  
