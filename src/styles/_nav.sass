@@ -8,11 +8,11 @@ $desktop: 1440px
     @media screen and (min-width: $mobile1)
         @content
         .navLinks
-    position: absolute
-    right: 0
-    top: 0
-    animation: fadeIn 2s 2s
-    animation-fill-mode: backwards
+            position: absolute
+            right: 0
+            top: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
 
     img
         display: flex
@@ -28,25 +28,12 @@ $desktop: 1440px
 @mixin mobile2
     @media screen and (min-width: $mobile2)
         @content
-     
-@mixin tablet
-    @media screen and (min-width: $tablet)
-        @content
-
-@mixin laptop
-    @media screen and (min-width: $laptop)
-        @content
-
-@mixin desktop
-    @media screen and (min-width: $desktop)
-        @content
-
-.navLinks
-    position: absolute
-    right: 0
-    top: 0
-    animation: fadeIn 2s 2s
-    animation-fill-mode: backwards
+        .navLinks
+            position: absolute
+            right: 0
+            top: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
 
     img
         display: flex
@@ -58,3 +45,84 @@ $desktop: 1440px
         min-height: 10vh
         margin: 40px 10px 40px 10px
         box-shadow: 0px 0px 3px 3.5px black
+
+@mixin tablet
+    @media screen and (min-width: $tablet)
+        @content
+        .navLinks
+            position: absolute
+            right: 0
+            top: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
+
+    img
+        display: flex
+        flex-direction: inline
+        align-content: space-between
+        border: 1.5px solid black
+        border-radius: .25rem
+        min-width: 10vw
+        min-height: 10vh
+        margin: 40px 10px 40px 10px
+        box-shadow: 0px 0px 3px 3.5px black
+
+@mixin laptop
+    @media screen and (min-width: $laptop)
+        @content
+        .navLinks
+            position: absolute
+            right: 0
+            top: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
+
+    img
+        display: flex
+        flex-direction: inline
+        align-content: space-between
+        border: 1.5px solid black
+        border-radius: .25rem
+        min-width: 10vw
+        min-height: 10vh
+        margin: 40px 10px 40px 10px
+        box-shadow: 0px 0px 3px 3.5px black
+
+@mixin desktop
+    @media screen and (min-width: $desktop)
+        @content
+        .navLinks
+            position: absolute
+            right: 0
+            top: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
+
+    img
+        display: flex
+        flex-direction: inline
+        align-content: space-between
+        border: 1.5px solid black
+        border-radius: .25rem
+        min-width: 10vw
+        min-height: 10vh
+        margin: 40px 10px 40px 10px
+        box-shadow: 0px 0px 3px 3.5px black
+
+// .navLinks
+//     position: absolute
+//     right: 0
+//     top: 0
+//     animation: fadeIn 2s 2s
+//     animation-fill-mode: backwards
+
+//     img
+//         display: flex
+//         flex-direction: inline
+//         align-content: space-between
+//         border: 1.5px solid black
+//         border-radius: .25rem
+//         min-width: 10vw
+//         min-height: 10vh
+//         margin: 40px 10px 40px 10px
+//         box-shadow: 0px 0px 3px 3.5px black

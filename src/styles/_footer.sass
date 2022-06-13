@@ -7,29 +7,12 @@ $desktop: 1440px
 @mixin mobile1
     @media screen and (min-width: $mobile1)
         @content
-
-@mixin mobile2
-    @media screen and (min-width: $mobile2)
-        @content
-
-@mixin tablet
-    @media screen and (min-width: $tablet)
-        @content
-
-@mixin laptop
-    @media screen and (min-width: $laptop)
-        @content
-
-@mixin desktop
-    @media screen and (min-width: $desktop)
-        @content
-
-.iconLinks
-    position: absolute
-    bottom: 0
-    left: 0
-    animation: fadeIn 2s 2s
-    animation-fill-mode: backwards
+        .iconLinks
+            position: absolute
+            bottom: 0
+            left: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
 
     img
         display: inline-flex
@@ -41,3 +24,105 @@ $desktop: 1440px
         border-radius: 20px
         margin: 0 40px 0 40px
         box-shadow: 0px 0px 3px 3.5px floralwhite
+
+@mixin mobile2
+    @media screen and (min-width: $mobile2)
+        @content
+        .iconLinks
+            position: absolute
+            bottom: 0
+            left: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
+
+    img
+        display: inline-flex
+        min-width: 10vw
+        min-height: 10vw
+        justify-content: space-between
+        content: icon
+        background: white
+        border-radius: 20px
+        margin: 0 40px 0 40px
+        box-shadow: 0px 0px 3px 3.5px floralwhite
+
+@mixin tablet
+    @media screen and (min-width: $tablet)
+        @content
+        .iconLinks
+            position: absolute
+            bottom: 0
+            left: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
+
+    img
+        display: inline-flex
+        min-width: 10vw
+        min-height: 10vw
+        justify-content: space-between
+        content: icon
+        background: white
+        border-radius: 20px
+        margin: 0 40px 0 40px
+        box-shadow: 0px 0px 3px 3.5px floralwhite
+
+@mixin laptop
+    @media screen and (min-width: $laptop)
+        @content
+        .iconLinks
+            position: absolute
+            bottom: 0
+            left: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
+
+    img
+        display: inline-flex
+        min-width: 10vw
+        min-height: 10vw
+        justify-content: space-between
+        content: icon
+        background: white
+        border-radius: 20px
+        margin: 0 40px 0 40px
+        box-shadow: 0px 0px 3px 3.5px floralwhite
+
+@mixin desktop
+    @media screen and (min-width: $desktop)
+        @content
+        .iconLinks
+            position: absolute
+            bottom: 0
+            left: 0
+            animation: fadeIn 2s 2s
+            animation-fill-mode: backwards
+
+    img
+        display: inline-flex
+        min-width: 10vw
+        min-height: 10vw
+        justify-content: space-between
+        content: icon
+        background: white
+        border-radius: 20px
+        margin: 0 40px 0 40px
+        box-shadow: 0px 0px 3px 3.5px floralwhite
+
+// .iconLinks
+//     position: absolute
+//     bottom: 0
+//     left: 0
+//     animation: fadeIn 2s 2s
+//     animation-fill-mode: backwards
+
+//     img
+//         display: inline-flex
+//         min-width: 10vw
+//         min-height: 10vw
+//         justify-content: space-between
+//         content: icon
+//         background: white
+//         border-radius: 20px
+//         margin: 0 40px 0 40px
+//         box-shadow: 0px 0px 3px 3.5px floralwhite
