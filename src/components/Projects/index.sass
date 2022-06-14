@@ -66,3 +66,59 @@ $desktop: 1440px
     overflow-y: visible
     display: grid
     opacity: 1
+
+@media screen and (max-width: $mobile1)
+    .authNamePro
+        display: flex
+        left: 1.5rem
+        top: 7rem
+        font-size: 1rem
+        font-weight: bolder
+        width: 6em
+        animation: fadeInDown 1.25s 1.25s
+        animation-fill-mode: backwards
+    .sub-logoPro
+        display: flex
+        max-width: 5rem
+        border-radius: 50%
+        border-style: solid
+        border-width: 3px
+        border-color: black
+        left: 2rem
+        top: 2rem
+        animation: fadeInDown 1.25s 1.25s
+        animation-fill-mode: backwards
+    .showcasePro h1
+        display: flex
+        top: 2rem
+        left: 7.5rem
+        width: 10.5rem
+        font-size: 3rem
+        font-weight: bolder
+        margin: 0
+        opacity: 0
+        animation: fadeInLeft 1.5s 1.25s
+        animation-fill-mode: forwards
+    .project-page
+        display: flex
+        box-shadow: 1px 3px 25px .5px #000
+        border-radius: 3rem
+        width: 15rem
+        bottom: 8.5rem
+        left: 5rem
+        text-align: center
+        background-color: transparent
+        animation: fadeInRight 3s 2s
+        animation-fill-mode: backwards
+    .projects-container
+        @include hideScrollbar
+        display: flex
+        border-radius: 3rem
+        background-color: transparent
+        position: sticky
+        width: 20rem
+        height: 35rem
+        overflow-x: hidden
+        overflow-y: visible
+        display: grid
+        opacity: 1

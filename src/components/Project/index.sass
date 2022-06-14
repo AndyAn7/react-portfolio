@@ -51,3 +51,53 @@ $desktop: 1440px
             text-decoration: none
             color: #000000
             margin: .3rem
+
+@media screen and (max-width: $mobile1)
+    .card
+        border-radius: 50px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        min-width: 100%
+
+        .card-header
+            margin: .5em
+
+            .card-title
+                font-size: 1.5rem
+                font-weight: bold
+                color: black
+                text-align: center
+                padding-bottom: 1rem
+
+            .card-image
+                min-height: 2.5vh
+                min-width: 100%
+                object-fit: fill
+
+        .card-text
+            font-size: 1.25rem
+            padding: 1rem
+            color: #000000
+            flex-grow: 1
+
+        .card-links
+            display: flex
+            font-size: 1.5rem
+            font-weight: bold
+            flex-direction: column
+            padding: .55em
+            cursor: auto
+            width: 8.5em
+            align-items: center
+            align-self: center
+
+            .card-link
+                text-decoration: underline
+                color: #000000
+                margin: .3rem
+
+            .card-linkB
+                text-decoration: underline
+                color: #000000
+                margin: .3rem
