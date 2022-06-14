@@ -1,4 +1,8 @@
-@use '../../styles/nav'
+$mobile1: 320px
+$mobile2: 480px
+$tablet: 768px
+$laptop: 1024px
+$desktop: 1440px
     
 .navLinks
     position: absolute
@@ -17,3 +21,21 @@
         min-height: 40px
         margin: 100px 10px 10px 10px
         box-shadow: 0px 0px 3px 3.5px black
+
+@media screen and (max-width: $mobile1) 
+    .navLinks
+        display: inline-flex
+        right: 5rem
+        top: 40rem
+        animation: fadeIn 2s 2s
+        animation-fill-mode: backwards
+
+        img
+            display: flex
+            flex-direction: inline
+            align-content: space-between
+            border: .5px solid black
+            border-radius: .25rem
+            width: 40px
+            margin: 10px 10px 10px 10px
+            box-shadow: 0px 0px 3px 3.5px black

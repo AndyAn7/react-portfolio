@@ -1,4 +1,8 @@
-@use  '../../styles/about'
+$mobile1: 320px
+$mobile2: 480px
+$tablet: 768px
+$laptop: 1024px
+$desktop: 1440px
 
 .authNameAbout
     position: absolute
@@ -72,3 +76,27 @@
     opacity: 0
     animation: fadeInLeft 1.5s 1.25s
     animation-fill-mode: forwards
+
+
+// @media screen and (max-width: $mobile1)
+//     .authNameAbout
+//         position: absolute
+//         left: 1rem
+//         top: 10vh
+//         font-size: 4em
+//         font-weight: lighter
+//         width: 7em
+//         animation: fadeInDown 1.25s 1.25s
+//         animation-fill-mode: backwards
+
+//     .sub-logoAbout
+//         position: absolute
+//         max-width: 10vw
+//         border-radius: 50%
+//         border-style: solid
+//         border-width: 3px
+//         border-color: black
+//         left: 5.5em
+//         top: 8em
+//         animation: fadeInDown 1.25s 1.25s
+//         animation-fill-mode: backwards

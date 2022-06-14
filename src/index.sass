@@ -1,1 +1,30 @@
-@use './styles/globalindex'
+$mobile1: 320px
+$mobile2: 480px
+$tablet: 768px
+$laptop: 1024px
+$desktop: 1440px
+    
+* 
+  display: inline-flexbox
+  border: .1px
+  border-color: black
+  border-style: dashed
+
+html, body, #root
+  display: flex
+  font-family: 'Roboto'
+  background: url('./assets/images/bg.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  min-height: 100vh
+  min-width: min-content
+  overflow: clip
+  box-sizing: unset
+
+@media (max-width: $mobile1)
+    html, body, #root
+        display: flex
+        min-width: 100vw
+        overflow: clip
+        box-sizing: unset
+        background-color: #000

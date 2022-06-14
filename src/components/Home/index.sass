@@ -1,4 +1,8 @@
-@use '../../styles/home.sass'
+$mobile1: 320px
+$mobile2: 480px
+$tablet: 768px
+$laptop: 1024px
+$desktop: 1440px
 
 .sub-logoHome
     position: absolute
@@ -21,6 +25,7 @@
     width: 6.25em
     animation: fadeInRight 1.25s 1.25s
     animation-fill-mode: backwards
+    
 .welcomePage
     .Port
         position: absolute
@@ -31,132 +36,33 @@
         animation-fill-mode: backwards
         opacity: 1
 
-.sub-logoHome
-    position: absolute
-    max-width: 35vw
-    border-radius: 50%
-    border-style: solid
-    border-width: 3px
-    border-color: black
-    left: 2em
-    top: 19.5em
-    animation: fadeInRight 1.2s 2.5s
-    animation-fill-mode: backwards
-
-.authNameHome
-    position: absolute
-    left: 39%
-    top: 30%
-    font-size: 12em
-    font-weight: lighter
-    width: 6.25em
-    animation: fadeInRight 1.25s 1.25s
-    animation-fill-mode: backwards
-
-.welcomePage
-    .Port
-        position: absolute
-        top: 63%
-        right: 4%
-        font-size: 275px
-        animation: fadeInRight 4s 3.75s
+@media screen and (max-width: $mobile1)
+    .sub-logoHome
+        display: flex
+        max-width: 65vw
+        border-radius: 50%
+        border-style: solid
+        border-width: 3px
+        border-color: black
+        left: 2em
+        top: 2.5em
+        animation: fadeInRight 1.2s 2.5s
         animation-fill-mode: backwards
-        opacity: 1
-
-.sub-logoHome
-    position: absolute
-    max-width: 35vw
-    border-radius: 50%
-    border-style: solid
-    border-width: 3px
-    border-color: black
-    left: 2em
-    top: 19.5em
-    animation: fadeInRight 1.2s 2.5s
-    animation-fill-mode: backwards
-
-.authNameHome
-    position: absolute
-    left: 39%
-    top: 30%
-    font-size: 12em
-    font-weight: lighter
-    width: 6.25em
-    animation: fadeInRight 1.25s 1.25s
-    animation-fill-mode: backwards
-
-.welcomePage
-    .Port
-        position: absolute
-        top: 63%
-        right: 4%
-        font-size: 275px
-        animation: fadeInRight 4s 3.75s
+    .authNameHome
+        display: flex
+        left: .25em
+        top: 5.75em
+        font-size: 3em
+        font-weight: bolder
+        width: 6.2em
+        animation: fadeInRight 1.25s 1.25s
         animation-fill-mode: backwards
-        opacity: 1
-
-.sub-logoHome
-    position: absolute
-    max-width: 35vw
-    border-radius: 50%
-    border-style: solid
-    border-width: 3px
-    border-color: black
-    left: 2em
-    top: 19.5em
-    animation: fadeInRight 1.2s 2.5s
-    animation-fill-mode: backwards
-
-.authNameHome
-    position: absolute
-    left: 39%
-    top: 30%
-    font-size: 12em
-    font-weight: lighter
-    width: 6.25em
-    animation: fadeInRight 1.25s 1.25s
-    animation-fill-mode: backwards
-
-.welcomePage
-    min-height: 100vh
-    min-width: 100vw
-    .Port
-        position: absolute
-        top: 63%
-        right: 4%
-        font-size: 275px
-        animation: fadeInRight 4s 3.75s
-        animation-fill-mode: backwards
-        opacity: 1
-
-.sub-logoHome
-    position: absolute
-    max-width: 35vw
-    border-radius: 50%
-    border-style: solid
-    border-width: 3px
-    border-color: black
-    left: 2em
-    top: 19.5em
-    animation: fadeInRight 1.2s 2.5s
-    animation-fill-mode: backwards
-
-.authNameHome
-    position: absolute
-    left: 39%
-    top: 30%
-    font-size: 12em
-    font-weight: lighter
-    width: 6.25em
-    animation: fadeInRight 1.25s 1.25s
-    animation-fill-mode: backwards
-
-.welcomePage
-    .Port
-        position: absolute
-        top: 63%
-        right: 4%
-        font-size: 275px
-        animation: fadeInRight 4s 3.75s
-        animation-fill-mode: backwards
-        opacity: 1
+    .welcomePage
+        .Port
+            display: flex
+            top: 33%
+            right: 20%
+            font-size: 50px
+            animation: fadeInRight 4s 3.75s
+            animation-fill-mode: backwards
+            opacity: 1
