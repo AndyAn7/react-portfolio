@@ -1,5 +1,4 @@
-$mobile1: 320px
-$mobile2: 480px
+$mobile: 480px
 $tablet: 768px
 $laptop: 1024px
 $desktop: 1440px
@@ -77,7 +76,7 @@ $desktop: 1440px
     animation: fadeInLeft 1.5s 1.25s
     animation-fill-mode: forwards
 
-@media screen and (max-width: $mobile1)
+@media screen and (max-width: $mobile)
     .authNameAbout
         display: flex
         left: 1.5rem
@@ -124,13 +123,14 @@ $desktop: 1440px
     .langTop
         display: flex
         bottom: 40rem
-        right: 15rem
-        min-width: 2.5rem
+        left: 2.5vw
+        width: .5rem
         font-size: 3rem
         font-style: italic
         animation: fadeInLeft 2s 2.5s
         animation-fill-mode: backwards
         color: #fff
+        
     .langBot
         display: flex
         top: 45rem
