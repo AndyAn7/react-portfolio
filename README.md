@@ -45,7 +45,8 @@ Welcome In!
 [GitHub Application](https://andyan7.github.io/react-portfolio/)
 # Contact
 * GitHub: [AndyAn7](https://github.com/AndyAn7)
-* email: andyan7@gmail.com
+* email: andyan7@hotmail.com
+* Skype: live:andyan7
 # License
 MIT License
 
