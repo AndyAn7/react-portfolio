@@ -42,7 +42,7 @@ Welcome In!
 [![image](./src/assets/images/ss.1.png)](https://andyan7.github.io/react-portfolio/)
 # App Links
 [GitHub Repo](https://github.com/AndyAn7/react-portfolio)
-[GitHub Application](andyan7.github.io/react-portfolio/)
+[GitHub Application](https://andyan7.github.io/react-portfolio/)
 # Contact
 * GitHub: [AndyAn7](https://github.com/AndyAn7)
 * email: andyan7@gmail.com
