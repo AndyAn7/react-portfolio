@@ -148,4 +148,71 @@ $desktop: 1440px
         animation-fill-mode: forwards
 
 @media screen and (min-width: 481px) and (max-width: $tablet)
-    
+    .authNameAbout
+        display: none
+    .sub-logoAbout
+        display: flex
+        max-width: 30vw
+        border-radius: 50%
+        border-style: solid
+        border-width: .3vw
+        border-color: black
+        left: 1.5vw
+        top: 2vh
+        animation: fadeInDown 1.25s 1.25s
+        animation-fill-mode: backwards
+    .aboutText
+        position: absolute
+        top: 28.5vh
+        width: 74vw
+        font-size: 5.5vw
+        left: 16.5vw
+        height: 55vh
+        overflow-x: hidden
+        overflow-y: visible
+        box-shadow: 0vh .95vw 1.5vh 0vw #000000
+        animation: fadeIn 3s 3s
+        animation-fill-mode: backwards
+        &::-webkit-scrollbar
+            display: none
+            -ms-overflow-style: none
+            scrollbar-width: none
+
+        p
+            display: flex
+            padding: 10px
+            margin-bottom: 10px
+            font-weight: lighter
+
+    .langTop
+        display: flex
+        bottom: 60vh
+        left: 5.5vw
+        width: .5vw
+        font-size: 10vw
+        font-style: italic
+        animation: fadeInLeft 2s 2.5s
+        animation-fill-mode: backwards
+        
+    .langBot
+        display: flex
+        top: 72vh
+        left: 2.25vw
+        width: .5vw
+        font-size: 10vw
+        font-style: italic
+        animation: fadeInLeft 2s 2.5s
+        animation-fill-mode: backwards
+
+    .showcase-about h1
+        display: flex
+        flex-shrink: 1
+        top: 20vh
+        left: 50vw
+        width: 28vw
+        font-size: 11vw
+        font-weight: light
+        margin: 0
+        opacity: 0
+        animation: fadeInLeft 1.5s 1.25s
+        animation-fill-mode: forwards
