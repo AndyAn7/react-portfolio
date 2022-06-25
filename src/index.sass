@@ -5,9 +5,9 @@ $desktop: 1440px
     
 * 
   display: inline-flexbox
-  border: .1px
-  border-color: black
-  border-style: dashed
+  // border: .1px
+  // border-color: black
+  // border-style: dashed
 
 html, body, #root
   display: flex
@@ -20,10 +20,20 @@ html, body, #root
   overflow: clip
   box-sizing: unset
 
-@media (max-width: $mobile)
-    html, body, #root
-        display: flex
-        min-width: 100vw
-        overflow: clip
-        box-sizing: unset
-        background-color: #000
+@media screen and (max-width: $mobile)
+  html, body, #root
+    display: flex
+    min-width: 100vw
+    min-height: 100vh
+    overflow: clip
+    box-sizing: unset
+    background-color: #000
+
+@media screen and (min-width: 481px) and (max-width: $tablet)
+  html, body, #root
+    display: flex
+    min-width: 100vw
+    min-height: 100vh
+    overflow: clip
+    box-sizing: unset
+    background-color: #000
